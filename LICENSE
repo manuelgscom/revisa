@@ -19,12 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----------------------------------------------------------------------------
-
-Note: the MIT license above covers the revisa source code except
-src/core/catalog/dictionary.cpp, a C++ port of the lookup code of Hunspell
-1.7.2, which keeps Hunspell's license: MPL 1.1 / GPL 2.0 / LGPL 2.1 (at your
-choice), together with the MySpell notice in that file. The embedded es_ES
-dictionary and the third-party software that revisa uses or ships are listed,
-with their licenses, in THIRD_PARTY_NOTICES.
