@@ -1,0 +1,24 @@
+# Casos del clasificador: from, to, left, right, type y, si está, explanation exacta.
+# Una sola sustitución entre c, z, s y x, o sc <-> c / s.
+{"from": "hize", "to": "hice", "left": "Ya lo ", "right": "", "type": "C_Z_S_X", "explanation": "Se escribe «hice», con «c»."}
+{"from": "dezir", "to": "decir", "left": "Quiero ", "right": "", "type": "C_Z_S_X"}
+{"from": "conoser", "to": "conocer", "left": "Encantado de ", "right": "te", "type": "C_Z_S_X", "explanation": "Se escribe «conocer», con «c»."}
+{"from": "empezé", "to": "empecé", "left": "Ayer ", "right": "", "type": "C_Z_S_X"}
+{"from": "lapizes", "to": "lápices", "left": "Los ", "right": "", "type": "C_Z_S_X"}
+{"from": "escusa", "to": "excusa", "left": "Es una ", "right": "", "type": "C_Z_S_X", "explanation": "Se escribe «excusa», con «x»."}
+{"from": "expontáneo", "to": "espontáneo", "left": "Fue ", "right": "", "type": "C_Z_S_X", "explanation": "Se escribe «espontáneo», con «s»."}
+{"from": "picina", "to": "piscina", "left": "La ", "right": "", "type": "C_Z_S_X", "explanation": "Se escribe «piscina», con «sc»."}
+{"from": "asensor", "to": "ascensor", "left": "El ", "right": "", "type": "C_Z_S_X", "explanation": "Se escribe «ascensor», con «sc»."}
+{"from": "consiente", "to": "consciente", "left": "Es ", "right": "", "type": "C_Z_S_X"}
+{"from": "ascensor", "to": "asensor", "left": "", "right": "", "type": "C_Z_S_X", "explanation": "Se escribe «asensor», con «s»."}
+{"from": "piscina", "to": "picina", "left": "", "right": "", "type": "C_Z_S_X", "explanation": "Se escribe «picina», con «c»."}
+{"from": "cocer", "to": "coser", "left": "Voy a ", "right": " el botón", "type": "C_Z_S_X"}
+{"from": "taza", "to": "tasa", "left": "La ", "right": " de paro", "type": "C_Z_S_X"}
+{"from": "sapato", "to": "zapato", "left": "Un ", "right": "", "type": "C_Z_S_X", "explanation": "Se escribe «zapato», con «z»."}
+{"from": "Hize", "to": "Hice", "left": "", "right": " lo que pude", "type": "C_Z_S_X"}
+{"from": "hacer", "to": "acer", "left": "", "right": "", "type": "H"}
+{"from": "cosa", "to": "casa", "left": "", "right": "", "type": "OTRO"}
+{"from": "exámen", "to": "examen", "left": "El ", "right": "", "type": "TILDE_SOBRA"}
+{"from": "acción", "to": "ación", "left": "", "right": "", "type": "OTRO"}
+{"from": "casa", "to": "sasa", "left": "", "right": "", "type": "OTRO"}
+{"from": "ecribir", "to": "escribir", "left": "Voy a ", "right": "", "type": "ERRATA"}

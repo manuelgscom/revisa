@@ -1,0 +1,104 @@
+# CONJUGACION (regla 29 del catálogo): formas verbales incorrectas frecuentes y su forma correcta.
+# Lista cerrada: la regla compara en minúsculas y con las tildes exactas («ande», subjuntivo
+# correcto, no es «andé»). La edición solo es de este tipo si «a» es la forma de esta lista.
+# Solo formas regularizadas que la norma rechaza como formas de ese verbo. El clasificador usa la
+# lista para dar tipo a una corrección que ya propone el modelo, y el inyector, para generar el
+# error: nada se corrige sin contexto. Se excluyen las que coinciden con una palabra correcta
+# frecuente («cabo», sustantivo; «conducí», imperativo voseante; «rompido», sustantivo). «haiga»
+# se mantiene: como verbo es siempre incorrecta, y el sustantivo (‘automóvil ostentoso’) es raro. Se dejan fuera las que
+# la norma admite («imprimido», «freído», «proveído», «predeciré»), las variantes regionales y las
+# que ya cubre otro tipo («váyamos», tilde; «dijistes», PRETERITO_S).
+# Fuentes: Diccionario panhispánico de dudas (DPD, 2005), entrada de cada verbo; Nueva gramática
+# de la lengua española (2009), cap. 4 (modelos de conjugación).
+# Columnas: de (incorrecta), a (correcta), explicación opcional (marcadores {de} y {a}; vacía:
+# la plantilla de explicaciones/gramatica.tsv).
+# de	a	explicación
+
+# haber (DPD, s. v. «haber»): el presente de subjuntivo es «haya»; «haiga» es vulgar.
+haiga	haya
+haigas	hayas
+haigamos	hayamos
+haigáis	hayáis
+haigan	hayan
+
+# andar (DPD, s. v. «andar»): pretérito «anduve» y sus derivados; las formas regulares son
+# incorrectas. «andamos» (presente) es correcta y no está.
+andé	anduve
+andaste	anduviste
+andó	anduvo
+andasteis	anduvisteis
+andaron	anduvieron
+andara	anduviera
+andaras	anduvieras
+andaran	anduvieran
+andase	anduviese
+
+# conducir y los verbos en -ducir (DPD, s. v. «conducir»; «traducir», «producir», «reducir»…:
+# «se conjuga como conducir»): pretérito «conduje», «condujo», «condujeron» (no «condujieron»).
+# Ojo: «conducí» es también el imperativo voseante («conducí con cuidado»), que es correcto; en
+# esta lista vale como pretérito de «yo».
+conduciste	condujiste
+condució	condujo
+conducieron	condujeron
+condujieron	condujeron
+conduciera	condujera
+tradució	tradujo
+traduciste	tradujiste
+tradujieron	tradujeron
+produció	produjo
+produjieron	produjeron
+redució	redujo
+redujieron	redujeron
+introdució	introdujo
+dedució	dedujo
+
+# decir y traer (DPD, s. v. «decir» y «traer»; Nueva gramática, cap. 4): la raíz en «j» va
+# seguida de «-eron» y «-era»: «dijeron», «trajeron», «trajera».
+dijieron	dijeron
+trajieron	trajeron
+trajiera	trajera
+
+# satisfacer (DPD, s. v. «satisfacer»): se conjuga como «hacer» («satisfice», «satisfizo»,
+# «satisfaré»); participio «satisfecho».
+satisfací	satisfice
+satisfació	satisfizo
+satisfacieron	satisficieron
+satisfaciera	satisficiera
+satisfaceré	satisfaré
+satisfacerá	satisfará
+satisfacería	satisfaría
+satisfacido	satisfecho
+
+# caber (DPD, s. v. «caber»): «quepo», «quepa», pretérito «cupe», futuro «cabré».
+# Ojo: «cabo» es también un sustantivo; en esta lista vale como forma de «caber».
+caba	quepa
+caban	quepan
+cabí	cupe
+cabió	cupo
+cabieron	cupieron
+cabiera	cupiera
+caberá	cabrá
+cabería	cabría
+
+# forzar (DPD, s. v. «forzar»): se conjuga como «contar» («fuerzo», «fuerza»).
+forzo	fuerzo
+forzas	fuerzas
+forza	fuerza
+forzan	fuerzan
+
+# apretar (DPD, s. v. «apretar»): se conjuga como «acertar» («aprieto», «apriete»).
+apreto	aprieto
+apretas	aprietas
+apreta	aprieta
+apretan	aprietan
+aprete	apriete
+apreten	aprieten
+
+# prever (DPD, s. v. «prever»): se conjuga como «ver»; no «preveer», «preveyó».
+preveer	prever
+preveyó	previó
+preveyeron	previeron
+preveyera	previera
+preveyendo	previendo
+
+# romper (DPD, s. v. «romper»): el participio es «roto».

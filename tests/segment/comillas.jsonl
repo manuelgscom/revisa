@@ -1,0 +1,10 @@
+# Cierres tras el signo y aperturas antes de la mayúscula.
+{"text": "Dijo «basta.» Luego se fue.", "segments": ["Dijo «basta.»", "Luego se fue."]}
+{"text": "Dijo \"basta.\" Luego se fue.", "segments": ["Dijo \"basta.\"", "Luego se fue."]}
+{"text": "Dijo “basta.” Luego se fue.", "segments": ["Dijo “basta.”", "Luego se fue."]}
+{"text": "Lo sé (o eso creo.) Sigamos.", "segments": ["Lo sé (o eso creo.)", "Sigamos."]}
+{"text": "Se fue. «Vuelve», gritó.", "segments": ["Se fue.", "«Vuelve», gritó."]}
+{"text": "Se fue. (Nadie lo vio.) Fin.", "segments": ["Se fue.", "(Nadie lo vio.)", "Fin."]}
+{"text": "Se fue. —Adiós —dijo.", "segments": ["Se fue.", "—Adiós —dijo."]}
+{"text": "Se fue. «¿Por qué?», pregunté.", "segments": ["Se fue.", "«¿Por qué?», pregunté."]}
+{"text": "Dijo «basta». luego se fue.", "segments": ["Dijo «basta». luego se fue."]}

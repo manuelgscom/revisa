@@ -1,0 +1,17 @@
+# URL con y sin esquema, dominios desnudos, nombres de fichero y correos.
+{"segment": "Mira https://ejemplo.es/doc y dime.", "spans": ["https://ejemplo.es/doc"], "fully_protected": false, "special": false}
+{"segment": "Mira https://ejemplo.es/doc.", "spans": ["https://ejemplo.es/doc"], "fully_protected": false, "special": false}
+{"segment": "Lee (https://ejemplo.es/a_(b)) ya.", "spans": ["https://ejemplo.es/a_(b)"], "fully_protected": false, "special": false}
+{"segment": "Lee (https://ejemplo.es/a) ya.", "spans": ["https://ejemplo.es/a"], "fully_protected": false, "special": false}
+{"segment": "Abre «http://x.org/?q=1&r=2»", "spans": ["http://x.org/?q=1&r=2"], "fully_protected": false, "special": false}
+{"segment": "HTTPS://EJEMPLO.ES/A es raro", "spans": ["HTTPS://EJEMPLO.ES/A"], "fully_protected": false, "special": false}
+{"segment": "ftp://servidor.net/fichero.zip", "spans": ["ftp://servidor.net/fichero.zip"], "fully_protected": true, "special": false}
+{"segment": "Entra en www.ejemplo.com, ya.", "spans": ["www.ejemplo.com"], "fully_protected": false, "special": false}
+{"segment": "Entra en ejemplo.es/ruta/a hoy.", "spans": ["ejemplo.es/ruta/a"], "fully_protected": false, "special": false}
+{"segment": "Visita google.com.", "spans": ["google.com"], "fully_protected": false, "special": false}
+{"segment": "Mira sub.dominio.gob.es:8080/x hoy", "spans": ["sub.dominio.gob.es:8080/x"], "fully_protected": false, "special": false}
+{"segment": "Abre informe.pdf y config.json", "spans": ["informe.pdf", "config.json"], "fully_protected": false, "special": false}
+{"segment": "Abre informe_final.PDF ya", "spans": ["informe_final.PDF"], "fully_protected": false, "special": false}
+{"segment": "Escribe a ana.garcia@ejemplo.es mañana.", "spans": ["ana.garcia@ejemplo.es"], "fully_protected": false, "special": false}
+{"segment": "Correo: soporte+web@mi-empresa.com.", "spans": ["soporte+web@mi-empresa.com"], "fully_protected": false, "special": false}
+{"segment": "mi correo es Ana@Ejemplo.ES", "spans": ["Ana@Ejemplo.ES"], "fully_protected": false, "special": false}

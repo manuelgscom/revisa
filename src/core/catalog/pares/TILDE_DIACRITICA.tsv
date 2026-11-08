@@ -1,0 +1,18 @@
+# Pares de tilde diacrítica (TILDE_DIACRITICA): los monosílabos con tilde diacrítica de la
+# Ortografía 2010 y el adverbio «aún/aun», que la Ortografía trata aparte con la misma tilde.
+# Columnas: de, a, explicación.
+# Se buscan en los dos sentidos y sin distinguir mayúsculas; la explicación vale para los dos.
+# No entran «solo/sólo» ni los demostrativos, ni los interrogativos
+# (interrogativos.txt).
+# Fuente: Ortografía 2010, cap. II (la tilde diacrítica en monosílabos); DPD, s. v. «tilde²».
+tu	tú	«tú» (pronombre) lleva tilde; «tu» (posesivo), no.
+el	él	«él» (pronombre) lleva tilde; «el» (artículo), no.
+mi	mí	«mí» lleva tilde cuando es pronombre («para mí»); en los demás casos («mi casa», la nota «mi»), se escribe sin tilde.
+si	sí	«sí» lleva tilde cuando es adverbio de afirmación, pronombre o sustantivo con el sentido de «aprobación» («dijo que sí», «para sí», «dio el sí»); en los demás casos («si vienes», la nota «si»), se escribe sin tilde.
+se	sé	«sé», de «saber» o de «ser» («no sé», «sé amable»), lleva tilde; la forma átona «se» («se fue», «se vende»), no.
+de	dé	«dé» lleva tilde cuando es del verbo «dar» («que te dé»); en los demás casos (la preposición, el nombre de la letra), «de» se escribe sin tilde.
+te	té	«té» (la planta, sus hojas, la infusión o la reunión en que se toma) lleva tilde; el pronombre «te» y el nombre de la letra «te», no.
+mas	más	«mas» se escribe sin tilde solo cuando es conjunción adversativa («quería ir, mas no pudo»); en todos los demás usos se escribe «más».
+# «aún/aun»: aunque «aún» no es monosílabo, la Ortografía 2010 lo trata con la tilde diacrítica
+# (cap. II, «La tilde diacrítica en el adverbio aún»); DPD, s. v. «aún».
+aun	aún	«aún» lleva tilde cuando equivale a «todavía»; en los demás casos («incluso», «aun así», «aun cuando»), «aun» se escribe sin tilde.

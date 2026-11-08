@@ -1,0 +1,11 @@
+# Spaces: a run of spaces is one token.
+{"original": "hola  que tal", "corrected": "hola que tal", "edits": [{"start": 4, "end": 6, "from": "  ", "to": " "}]}
+{"original": "hola que", "corrected": "hola  que", "edits": [{"start": 4, "end": 5, "from": " ", "to": "  "}]}
+{"original": " hola", "corrected": "hola", "edits": [{"start": 0, "end": 1, "from": " ", "to": ""}]}
+{"original": "hola ", "corrected": "hola", "edits": [{"start": 4, "end": 5, "from": " ", "to": ""}]}
+{"original": "hola\tque", "corrected": "hola que", "edits": [{"start": 4, "end": 5, "from": "\t", "to": " "}]}
+{"original": "holaque", "corrected": "hola que", "edits": [{"start": 0, "end": 7, "from": "holaque", "to": "hola que"}]}
+{"original": "hola que", "corrected": "holaque", "edits": [{"start": 0, "end": 8, "from": "hola que", "to": "holaque"}]}
+{"original": "a  b  c", "corrected": "a b c", "edits": [{"start": 1, "end": 3, "from": "  ", "to": " "}, {"start": 4, "end": 6, "from": "  ", "to": " "}]}
+{"original": "Hola.Adiós", "corrected": "Hola. Adiós", "edits": [{"start": 5, "end": 5, "from": "", "to": " "}]}
+{"original": "Hola\n\nAdiós", "corrected": "Hola\nAdiós", "edits": [{"start": 4, "end": 6, "from": "\n\n", "to": "\n"}]}

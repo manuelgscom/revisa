@@ -1,0 +1,28 @@
+# Casos del clasificador: from, to, left, right, type y, si está, explanation exacta.
+# La corrección añade una tilde; {regla} con el silabeo. Negativos: diacríticas, interrogativos, porqué.
+{"from": "estas", "to": "estás", "left": "¿Cómo ", "right": "?", "type": "TILDE_FALTA", "explanation": "«estás» lleva tilde: es aguda y termina en «-s» no precedida de otra consonante."}
+{"from": "cancion", "to": "canción", "left": "Es una ", "right": " bonita", "type": "TILDE_FALTA", "explanation": "«canción» lleva tilde: es aguda y termina en «-n» no precedida de otra consonante."}
+{"from": "cafe", "to": "café", "left": "Un ", "right": " con leche", "type": "TILDE_FALTA", "explanation": "«café» lleva tilde: es aguda y termina en vocal."}
+{"from": "arbol", "to": "árbol", "left": "El ", "right": " es alto", "type": "TILDE_FALTA", "explanation": "«árbol» lleva tilde: es llana y no termina en vocal, «-n» ni «-s»."}
+{"from": "rapido", "to": "rápido", "left": "Ven ", "right": "", "type": "TILDE_FALTA", "explanation": "«rápido» lleva tilde: es esdrújula, y las esdrújulas llevan siempre tilde."}
+{"from": "digamelo", "to": "dígamelo", "left": "", "right": " ya", "type": "TILDE_FALTA", "explanation": "«dígamelo» lleva tilde: es sobresdrújula, y las sobresdrújulas llevan siempre tilde."}
+{"from": "dia", "to": "día", "left": "Buen ", "right": "", "type": "TILDE_FALTA", "explanation": "«día» lleva tilde: la vocal cerrada tónica junto a una abierta forma hiato y lleva tilde."}
+{"from": "pais", "to": "país", "left": "Mi ", "right": " es grande", "type": "TILDE_FALTA", "explanation": "«país» lleva tilde: la vocal cerrada tónica junto a una abierta forma hiato y lleva tilde."}
+{"from": "biceps", "to": "bíceps", "left": "Tiene buenos ", "right": "", "type": "TILDE_FALTA", "explanation": "«bíceps» lleva tilde: es llana y termina en grupo de consonantes."}
+{"from": "rapidamente", "to": "rápidamente", "left": "Ven ", "right": "", "type": "TILDE_FALTA", "explanation": "«rápidamente» lleva tilde: los adverbios en «-mente» conservan la tilde del adjetivo."}
+{"from": "yoquey", "to": "yóquey", "left": "El ", "right": " ganó", "type": "TILDE_FALTA", "explanation": "«yóquey» lleva tilde: es llana y termina en «-y», que a efectos de la tilde cuenta como consonante."}
+{"from": "Arbol", "to": "Árbol", "left": "", "right": " caído", "type": "TILDE_FALTA", "explanation": "«Árbol» lleva tilde: es llana y no termina en vocal, «-n» ni «-s»."}
+{"from": "examenes", "to": "exámenes", "left": "Los ", "right": " de junio", "type": "TILDE_FALTA", "explanation": "«exámenes» lleva tilde: es esdrújula, y las esdrújulas llevan siempre tilde."}
+{"from": "ahi", "to": "ahí", "left": "Está ", "right": "", "type": "TILDE_FALTA", "explanation": "«ahí» lleva tilde: la vocal cerrada tónica junto a una abierta forma hiato y lleva tilde."}
+{"from": "esta", "to": "está", "left": "Ya ", "right": " hecho", "type": "TILDE_FALTA", "explanation": "«está» lleva tilde: es aguda y termina en vocal."}
+{"from": "telefono", "to": "teléfono", "left": "Mi ", "right": " nuevo", "type": "TILDE_FALTA"}
+{"from": "ésta", "to": "está", "left": "Ya ", "right": " hecho", "type": "TILDE_FALTA", "explanation": "«está» lleva tilde: es aguda y termina en vocal."}
+{"from": "solo", "to": "sólo", "left": "Vino ", "right": " él", "type": "TILDE_FALTA", "explanation": "«sólo» lleva tilde."}
+{"from": "este", "to": "éste", "left": "Prefiero ", "right": "", "type": "TILDE_FALTA", "explanation": "«éste» lleva tilde."}
+{"from": "hui", "to": "huí", "left": "Ayer ", "right": "", "type": "TILDE_FALTA", "explanation": "«huí» lleva tilde."}
+{"from": "que", "to": "qué", "left": "No sé ", "right": " hacer", "type": "TILDE_INTERROGATIVA"}
+{"from": "tu", "to": "tú", "left": "¿Y ", "right": "?", "type": "TILDE_DIACRITICA"}
+{"from": "porque", "to": "porqué", "left": "El ", "right": " de todo", "type": "POR_QUE"}
+{"from": "fué", "to": "fue", "left": "Ayer ", "right": " fiesta", "type": "TILDE_SOBRA"}
+{"from": "e", "to": "he", "left": "Ya ", "right": " comido", "type": "VERBO_HABER_H"}
+{"from": "e", "to": "é", "left": "Ya ", "right": " comido", "type": "TILDE_FALTA", "explanation": "«é» lleva tilde."}

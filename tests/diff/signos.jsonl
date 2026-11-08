@@ -1,0 +1,15 @@
+# Punctuation: insertions, deletions and replacements of signs.
+{"original": "Que bien!", "corrected": "¡Qué bien!", "edits": [{"start": 0, "end": 0, "from": "", "to": "¡"}, {"start": 0, "end": 3, "from": "Que", "to": "Qué"}]}
+{"original": "hola.", "corrected": "hola", "edits": [{"start": 4, "end": 5, "from": ".", "to": ""}]}
+{"original": "hola", "corrected": "hola...", "edits": [{"start": 4, "end": 4, "from": "", "to": "..."}]}
+{"original": "Hola , que tal", "corrected": "Hola, que tal", "edits": [{"start": 4, "end": 5, "from": " ", "to": ""}]}
+{"original": "¿Qué tal", "corrected": "¿Qué tal?", "edits": [{"start": 8, "end": 8, "from": "", "to": "?"}]}
+{"original": "(hola", "corrected": "(hola)", "edits": [{"start": 5, "end": 5, "from": "", "to": ")"}]}
+{"original": "Sí, claro", "corrected": "Sí claro", "edits": [{"start": 2, "end": 3, "from": ",", "to": ""}]}
+{"original": "Lo sé…", "corrected": "Lo sé.", "edits": [{"start": 5, "end": 6, "from": "…", "to": "."}]}
+# A space moved across a sign: deletion before it and insertion after it.
+{"original": "hola ,que", "corrected": "hola, que", "edits": [{"start": 4, "end": 5, "from": " ", "to": ""}, {"start": 6, "end": 6, "from": "", "to": " "}]}
+# A pure deletion of a comma and a word splits: one edit for the comma, one for the word.
+{"original": "creo, de que vienes", "corrected": "creo que vienes", "edits": [{"start": 4, "end": 5, "from": ",", "to": ""}, {"start": 5, "end": 8, "from": " de", "to": ""}]}
+{"original": "Hola Ana", "corrected": "¡Hola, Ana!", "edits": [{"start": 0, "end": 0, "from": "", "to": "¡"}, {"start": 4, "end": 4, "from": "", "to": ","}, {"start": 8, "end": 8, "from": "", "to": "!"}]}
+{"original": "Los clientes, que son muchos, recibirán", "corrected": "Los clientes recibirán", "edits": [{"start": 12, "end": 13, "from": ",", "to": ""}, {"start": 13, "end": 28, "from": " que son muchos", "to": ""}, {"start": 28, "end": 29, "from": ",", "to": ""}]}

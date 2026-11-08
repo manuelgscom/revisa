@@ -1,0 +1,30 @@
+# CONCORDANCIA: misma raíz y solo cambia la terminación de género o número; determinantes.
+{"from": "bonitos", "to": "bonitas", "left": "Unas casas ", "right": ".", "type": "CONCORDANCIA", "explanation": "Concordancia de género, número o persona: «bonitas»."}
+{"from": "la", "to": "el", "left": "", "right": " agua está fría.", "type": "CONCORDANCIA", "explanation": "Concordancia de género, número o persona: «el»."}
+{"from": "los", "to": "las", "left": "", "right": " manos.", "type": "CONCORDANCIA"}
+{"from": "casa", "to": "casas", "left": "Las ", "right": ".", "type": "CONCORDANCIA"}
+{"from": "profesor", "to": "profesora", "left": "La ", "right": ".", "type": "CONCORDANCIA"}
+{"from": "rojo", "to": "roja", "left": "La camisa ", "right": ".", "type": "CONCORDANCIA"}
+{"from": "árbol", "to": "árboles", "left": "Los ", "right": ".", "type": "CONCORDANCIA"}
+{"from": "canción", "to": "canciones", "left": "Las ", "right": ".", "type": "CONCORDANCIA"}
+{"from": "vez", "to": "veces", "left": "Muchas ", "right": ".", "type": "CONCORDANCIA", "explanation": "Concordancia de género, número o persona: «veces»."}
+{"from": "vende", "to": "venden", "left": "Se ", "right": " pisos.", "type": "CONCORDANCIA"}
+{"from": "algún", "to": "alguna", "left": "", "right": " vez.", "type": "CONCORDANCIA"}
+{"from": "este", "to": "esta", "left": "", "right": " casa.", "type": "CONCORDANCIA"}
+{"from": "un", "to": "una", "left": "", "right": " mesa.", "type": "CONCORDANCIA"}
+{"from": "su", "to": "sus", "left": "", "right": " hijos.", "type": "CONCORDANCIA"}
+{"from": "mucho", "to": "muchas", "left": "", "right": " gracias.", "type": "CONCORDANCIA"}
+{"from": "profesores", "to": "profesoras", "left": "Las ", "right": ".", "type": "CONCORDANCIA"}
+{"from": "Pequeño", "to": "Pequeña", "left": "", "right": " casa.", "type": "CONCORDANCIA", "explanation": "Concordancia de género, número o persona: «Pequeña»."}
+# Negativos.
+{"from": "lo", "to": "la", "left": "", "right": " vi.", "type": "OTRO"}
+{"from": "no", "to": "nos", "left": "", "right": " vemos.", "type": "OTRO"}
+{"from": "hay", "to": "haya", "left": "Cuando ", "right": " tiempo.", "type": "OTRO"}
+{"from": "casa", "to": "cosa", "left": "Una ", "right": ".", "type": "OTRO"}
+{"from": "bonito", "to": "bonitísimo", "left": "Es ", "right": ".", "type": "OTRO"}
+{"from": "e", "to": "es", "left": "Eso ", "right": " verdad.", "type": "OTRO"}
+{"from": "grande", "to": "gran", "left": "Un ", "right": " día.", "type": "OTRO"}
+{"from": "primero", "to": "primer", "left": "El ", "right": " día.", "type": "OTRO"}
+{"from": "es", "to": "son", "left": "Ellos ", "right": ".", "type": "OTRO"}
+# Una palabra mal escrita que pasa a una correcta es ERRATA aunque encaje la terminación.
+{"from": "tambie", "to": "también", "left": "Yo ", "right": ".", "type": "ERRATA"}

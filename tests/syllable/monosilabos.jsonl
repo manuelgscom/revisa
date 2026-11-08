@@ -1,0 +1,43 @@
+# Silabeo ortográfico (Ortografía 2010): word, syllables (en minúscula, con «-»), stress
+# (monosilaba, aguda, llana, esdrujula, sobresdrujula) y, si está, hiatus (la tilde marca hiato).
+# Monosílabos, también los ortográficos con diptongo o triptongo (guion, truhan, fie, riais, hui).
+{"word": "fue", "syllables": "fue", "stress": "monosilaba"}
+{"word": "fui", "syllables": "fui", "stress": "monosilaba"}
+{"word": "dio", "syllables": "dio", "stress": "monosilaba"}
+{"word": "vio", "syllables": "vio", "stress": "monosilaba"}
+{"word": "guion", "syllables": "guion", "stress": "monosilaba"}
+{"word": "truhan", "syllables": "truhan", "stress": "monosilaba"}
+{"word": "fie", "syllables": "fie", "stress": "monosilaba"}
+{"word": "riais", "syllables": "riais", "stress": "monosilaba"}
+{"word": "hui", "syllables": "hui", "stress": "monosilaba"}
+{"word": "huir", "syllables": "huir", "stress": "monosilaba"}
+{"word": "lie", "syllables": "lie", "stress": "monosilaba"}
+{"word": "pie", "syllables": "pie", "stress": "monosilaba"}
+{"word": "sol", "syllables": "sol", "stress": "monosilaba"}
+{"word": "mar", "syllables": "mar", "stress": "monosilaba"}
+{"word": "tren", "syllables": "tren", "stress": "monosilaba"}
+{"word": "sal", "syllables": "sal", "stress": "monosilaba"}
+{"word": "pan", "syllables": "pan", "stress": "monosilaba"}
+{"word": "mes", "syllables": "mes", "stress": "monosilaba"}
+{"word": "dios", "syllables": "dios", "stress": "monosilaba"}
+{"word": "ion", "syllables": "ion", "stress": "monosilaba"}
+{"word": "Sion", "syllables": "sion", "stress": "monosilaba"}
+{"word": "crie", "syllables": "crie", "stress": "monosilaba"}
+{"word": "guie", "syllables": "guie", "stress": "monosilaba"}
+{"word": "quien", "syllables": "quien", "stress": "monosilaba"}
+{"word": "quién", "syllables": "quién", "stress": "monosilaba"}
+{"word": "buey", "syllables": "buey", "stress": "monosilaba"}
+{"word": "miau", "syllables": "miau", "stress": "monosilaba"}
+{"word": "guau", "syllables": "guau", "stress": "monosilaba"}
+{"word": "hoy", "syllables": "hoy", "stress": "monosilaba"}
+{"word": "muy", "syllables": "muy", "stress": "monosilaba"}
+{"word": "rey", "syllables": "rey", "stress": "monosilaba"}
+{"word": "ley", "syllables": "ley", "stress": "monosilaba"}
+{"word": "yo", "syllables": "yo", "stress": "monosilaba"}
+{"word": "y", "syllables": "y", "stress": "monosilaba"}
+{"word": "tú", "syllables": "tú", "stress": "monosilaba"}
+{"word": "él", "syllables": "él", "stress": "monosilaba"}
+{"word": "que", "syllables": "que", "stress": "monosilaba"}
+{"word": "qué", "syllables": "qué", "stress": "monosilaba"}
+{"word": "gris", "syllables": "gris", "stress": "monosilaba"}
+{"word": "tres", "syllables": "tres", "stress": "monosilaba"}

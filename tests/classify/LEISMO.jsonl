@@ -1,0 +1,27 @@
+# LEISMO: le/les -> lo/la/los/las con el mismo número, solo o enclítico.
+{"from": "le", "to": "lo", "left": "El libro ", "right": " compré ayer.", "type": "LEISMO", "explanation": "Pronombre de complemento directo: «lo» en lugar de «le» (leísmo)."}
+{"from": "le", "to": "la", "left": "A María ", "right": " vi en la calle.", "type": "LEISMO", "explanation": "Pronombre de complemento directo: «la» en lugar de «le» (leísmo)."}
+{"from": "les", "to": "los", "left": "Los coches ", "right": " lavé ayer.", "type": "LEISMO", "explanation": "Pronombre de complemento directo: «los» en lugar de «les» (leísmo)."}
+{"from": "les", "to": "las", "left": "Las llaves ", "right": " perdí.", "type": "LEISMO", "explanation": "Pronombre de complemento directo: «las» en lugar de «les» (leísmo)."}
+{"from": "Le", "to": "Lo", "left": "", "right": " compré ayer.", "type": "LEISMO", "explanation": "Pronombre de complemento directo: «Lo» en lugar de «Le» (leísmo)."}
+# «le vi» -> «lo vi» SÍ da LEISMO: el clasificador no sabe si el referente es una persona
+# (leísmo de persona masculino admitido). Eso lo deciden el gold y las guardas.
+{"from": "le", "to": "lo", "left": "A Juan ", "right": " vi ayer en la oficina.", "type": "LEISMO", "explanation": "Pronombre de complemento directo: «lo» en lugar de «le» (leísmo)."}
+# Enclíticos: infinitivo, gerundio, imperativo con tilde, «vosotros», imperativos cortos.
+{"from": "llámale", "to": "llámalo", "left": "El taxi: ", "right": ".", "type": "LEISMO", "explanation": "Pronombre de complemento directo: «llámalo» en lugar de «llámale» (leísmo)."}
+{"from": "Dígale", "to": "Dígala", "left": "", "right": " la verdad a ella.", "type": "LEISMO", "explanation": "Pronombre de complemento directo: «Dígala» en lugar de «Dígale» (leísmo)."}
+{"from": "cómprale", "to": "cómpralo", "left": "Ese libro, ", "right": ".", "type": "LEISMO"}
+{"from": "verle", "to": "verlo", "left": "Quiero ", "right": " antes de comprarlo.", "type": "LEISMO"}
+{"from": "comprándole", "to": "comprándolo", "left": "Lo celebré ", "right": ".", "type": "LEISMO"}
+{"from": "llamadle", "to": "llamadlo", "left": "El taxi, ", "right": " ya.", "type": "LEISMO"}
+{"from": "hazle", "to": "hazlo", "left": "", "right": " ya.", "type": "LEISMO"}
+{"from": "tráemele", "to": "tráemelo", "left": "El libro, ", "right": " mañana.", "type": "LEISMO"}
+{"from": "invitarles", "to": "invitarlas", "left": "A tus primas puedes ", "right": ".", "type": "LEISMO"}
+# Negativos: cambia el número, no es un verbo con enclítico, otro pronombre.
+{"from": "le", "to": "les", "left": "", "right": " dije la verdad.", "type": "OTRO"}
+{"from": "les", "to": "lo", "left": "", "right": " vi.", "type": "OTRO"}
+{"from": "calle", "to": "callo", "left": "La ", "right": ".", "type": "OTRO"}
+{"from": "suele", "to": "suelo", "left": "Como ", "right": " decir.", "type": "OTRO"}
+{"from": "detalle", "to": "detallo", "left": "Un ", "right": ".", "type": "OTRO"}
+{"from": "le", "to": "te", "left": "", "right": " llamo luego.", "type": "OTRO"}
+{"from": "la", "to": "le", "left": "", "right": " dije que viniera.", "type": "LAISMO"}

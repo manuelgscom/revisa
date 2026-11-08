@@ -1,0 +1,20 @@
+# LAISMO: la/las -> le/les con el mismo número, solo o enclítico.
+{"from": "la", "to": "le", "left": "", "right": " dije que viniera.", "type": "LAISMO", "explanation": "Complemento indirecto: «le», no «la» (laísmo)."}
+{"from": "La", "to": "Le", "left": "", "right": " dije que viniera.", "type": "LAISMO", "explanation": "Complemento indirecto: «Le», no «La» (laísmo)."}
+{"from": "las", "to": "les", "left": "A ellas ", "right": " di un regalo.", "type": "LAISMO", "explanation": "Complemento indirecto: «les», no «las» (laísmo)."}
+{"from": "la", "to": "le", "left": "A Ana ", "right": " gusta el cine.", "type": "LAISMO"}
+{"from": "dila", "to": "dile", "left": "", "right": " que venga.", "type": "LAISMO", "explanation": "Complemento indirecto: «dile», no «dila» (laísmo)."}
+{"from": "decirla", "to": "decirle", "left": "Tengo que ", "right": " la verdad.", "type": "LAISMO", "explanation": "Complemento indirecto: «decirle», no «decirla» (laísmo)."}
+{"from": "pregúntala", "to": "pregúntale", "left": "", "right": " a qué hora llega.", "type": "LAISMO"}
+{"from": "diciéndola", "to": "diciéndole", "left": "La convenció ", "right": " que sí.", "type": "LAISMO"}
+{"from": "dadla", "to": "dadle", "left": "", "right": " las gracias.", "type": "LAISMO"}
+{"from": "escribirlas", "to": "escribirles", "left": "Voy a ", "right": " una carta.", "type": "LAISMO"}
+{"from": "contestadlas", "to": "contestadles", "left": "", "right": " pronto.", "type": "LAISMO"}
+{"from": "hazla", "to": "hazle", "left": "", "right": " caso.", "type": "LAISMO"}
+# Negativos.
+{"from": "la", "to": "lo", "left": "", "right": " vi.", "type": "OTRO"}
+{"from": "las", "to": "le", "left": "", "right": " dije.", "type": "OTRO"}
+{"from": "sala", "to": "sale", "left": "La ", "right": " está llena.", "type": "OTRO"}
+{"from": "pala", "to": "pale", "left": "La ", "right": ".", "type": "OTRO"}
+{"from": "la", "to": "el", "left": "", "right": " agua está fría.", "type": "CONCORDANCIA"}
+{"from": "le", "to": "la", "left": "A María ", "right": " vi.", "type": "LEISMO"}

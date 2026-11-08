@@ -1,0 +1,37 @@
+# Casos de las guardas (src/core/guard). Dos formas:
+#   {segment, output, invalid}: guard::invalid_output.
+#   {marked, types, protected?, output?, disabled?, kept | rejection}: guard::apply. «marked» es el
+#   segmento con cada edición escrita [de|a]; types, el tipo dado a mano de cada una (sin clasificador);
+#   protected, los tramos protegidos como subcadenas; kept, los índices de las ediciones que quedan.
+{"marked": "Hola[|,] Ana, ¿vienes mañana a la fiesta de esta noche?", "types": ["OTRO"], "kept": [], "note": "coma añadida"}
+{"marked": "[haber|a ver,] si vienes mañana a casa de mis padres", "types": ["HABER_A_VER"], "kept": [], "note": "coma añadida dentro de otra edición"}
+{"marked": "Los clientes[,|] recibirán el pedido mañana por la tarde.", "types": ["COMA_SOBRA"], "kept": [0], "note": "quitar una coma sí está en el catálogo"}
+{"marked": "Mañana te llamo para hablar del proyecto[|.]", "types": ["OTRO"], "kept": [], "note": "punto final añadido"}
+{"marked": "Mañana te llamo para hablar del [proyeto|proyecto.]", "types": ["ERRATA"], "kept": [], "note": "punto final añadido dentro de otra edición"}
+{"marked": "Te llamo mañana[|.] Luego hablamos del proyecto nuevo", "types": ["OTRO"], "kept": [0], "note": "un punto que no está al final no es un punto final"}
+{"marked": "Me dijo [\"|«]hola[\"|»] y se fue sin despedirse de nadie.", "types": ["OTRO", "OTRO"], "kept": [], "note": "estilo de comillas"}
+{"marked": "Me dijo [“|«]hola[”|»] y se fue sin despedirse de nadie.", "types": ["OTRO", "OTRO"], "kept": []}
+{"marked": "Me dijo [|«]hola[|»] y se fue sin despedirse de nadie.", "types": ["OTRO", "OTRO"], "kept": [], "note": "comillas añadidas"}
+{"marked": "Me dijo [«|]hola[»|] y se fue sin despedirse de nadie.", "types": ["OTRO", "OTRO"], "kept": [], "note": "comillas quitadas"}
+{"marked": "Es la casa de [O'Donnell|O’Donnell], en la calle de al lado.", "types": ["OTRO"], "kept": []}
+{"marked": "Llegó a las cinco [-|—] más o menos [-|—] y se fue pronto a casa.", "types": ["OTRO", "OTRO"], "kept": [], "note": "estilo de guiones y rayas"}
+{"marked": "Llegó a las cinco [–|-] más o menos y se fue pronto a casa.", "types": ["OTRO"], "kept": []}
+{"marked": "Es un producto anti[-|]virus muy bueno para el ordenador de casa.", "types": ["JUNTO_SEPARADO"], "kept": [0], "note": "quitar un guion dentro de una palabra no es estilo"}
+{"marked": "Somos [1000|1.000] personas en la empresa desde este año.", "types": ["OTRO"], "kept": [], "note": "formato numérico"}
+{"marked": "Somos 1[ |]000 personas en la empresa desde este año.", "types": ["ESPACIADO"], "kept": []}
+{"marked": "La reunión es a las 18[:|.]30 en la sala grande del edificio.", "types": ["OTRO"], "kept": [], "note": "formato de hora"}
+{"marked": "Mide [3,5|3.5] metros de largo y casi dos de ancho, más o menos.", "types": ["OTRO"], "kept": []}
+{"marked": "Tengo [3|4] hermanos y todos viven en Madrid con mis padres.", "types": ["OTRO"], "kept": [], "note": "solo dígitos"}
+{"marked": "Nos vemos a las 5, [|¿]te parece bien quedar en la plaza?", "types": ["SIGNO_APERTURA"], "kept": [0]}
+{"marked": "Nos vemos el día 5[| ]de mayo en la plaza mayor del pueblo.", "types": ["ESPACIADO"], "kept": [0], "note": "un espacio entre un número y una palabra no es formato numérico"}
+{"marked": "Es [URGENTE|urgente] que me llames esta tarde cuando salgas del trabajo.", "types": ["MAYUSCULA"], "kept": [], "note": "mayúsculas de énfasis"}
+{"marked": "[HOLA|Hola] a todos, ¿qué tal estáis esta mañana tan fría?", "types": ["MAYUSCULA"], "kept": []}
+{"marked": "Es [URGENTISIMO|urgentísimo] que me llames esta tarde cuando salgas.", "types": ["TILDE_FALTA"], "kept": [], "note": "minúsculas con tilde: también se descarta"}
+{"marked": "[QUE|QUÉ] BIEN LO HEMOS PASADO ESTE FIN DE SEMANA EN LA PLAYA", "types": ["TILDE_INTERROGATIVA"], "kept": [0], "note": "la tilde en mayúsculas sí se corrige"}
+{"marked": "Mañana es [Lunes|lunes] y tenemos reunión con todo el equipo.", "types": ["MAYUSCULA"], "kept": [0]}
+{"marked": "Ayer vi a [juan|Juan] en la estación de tren de la ciudad.", "types": ["MAYUSCULA"], "kept": [0]}
+{"marked": "[A|a] veces llego tarde al trabajo por culpa del tráfico.", "types": ["MAYUSCULA"], "kept": [0], "note": "una sola letra no es una palabra en mayúsculas"}
+{"marked": "[Sólo|Solo] quería saber si vienes a la cena del sábado.", "types": ["OTRO"], "kept": [], "note": "variante admitida"}
+{"marked": "[Quizás|Quizá] mañana podamos vernos un rato en el centro.", "types": ["OTRO"], "kept": []}
+{"marked": "Lo haré [en seguida|enseguida], en cuanto termine este informe tan largo.", "types": ["JUNTO_SEPARADO"], "kept": []}
+{"marked": "Mañana te llamo [despues|después] de comer con ellos.", "types": ["TILDE_FALTA"], "kept": [0]}

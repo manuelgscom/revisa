@@ -1,0 +1,6 @@
+# The golden files and the embedded catalog are compared byte for byte: keep LF everywhere, also
+# in clones made on Windows (Git for Windows defaults to core.autocrlf=true).
+* text=auto eol=lf
+*.png binary
+*.ico binary
+*.gguf binary

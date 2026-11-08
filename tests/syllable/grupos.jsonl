@@ -1,0 +1,67 @@
+# Silabeo ortográfico (Ortografía 2010): word, syllables (en minúscula, con «-»), stress
+# (monosilaba, aguda, llana, esdrujula, sobresdrujula) y, si está, hiatus (la tilde marca hiato).
+# Grupos consonánticos inseparables, dígrafos ch, ll, rr, la h, qu, gu y gü.
+{"word": "hombre", "syllables": "hom-bre", "stress": "llana"}
+{"word": "otro", "syllables": "o-tro", "stress": "llana"}
+{"word": "atlas", "syllables": "at-las", "stress": "llana"}
+{"word": "atleta", "syllables": "at-le-ta", "stress": "llana"}
+{"word": "abrazo", "syllables": "a-bra-zo", "stress": "llana"}
+{"word": "aplicar", "syllables": "a-pli-car", "stress": "aguda"}
+{"word": "iglesia", "syllables": "i-gle-sia", "stress": "llana"}
+{"word": "afligir", "syllables": "a-fli-gir", "stress": "aguda"}
+{"word": "África", "syllables": "á-fri-ca", "stress": "esdrujula"}
+{"word": "madre", "syllables": "ma-dre", "stress": "llana"}
+{"word": "cuadro", "syllables": "cua-dro", "stress": "llana"}
+{"word": "ciclo", "syllables": "ci-clo", "stress": "llana"}
+{"word": "secreto", "syllables": "se-cre-to", "stress": "llana"}
+{"word": "kilo", "syllables": "ki-lo", "stress": "llana"}
+{"word": "instituto", "syllables": "ins-ti-tu-to", "stress": "llana"}
+{"word": "construcción", "syllables": "cons-truc-ción", "stress": "aguda"}
+{"word": "abstracto", "syllables": "abs-trac-to", "stress": "llana"}
+{"word": "transporte", "syllables": "trans-por-te", "stress": "llana"}
+{"word": "obstáculo", "syllables": "obs-tá-cu-lo", "stress": "esdrujula"}
+{"word": "perspectiva", "syllables": "pers-pec-ti-va", "stress": "llana"}
+{"word": "inspector", "syllables": "ins-pec-tor", "stress": "aguda"}
+{"word": "excelente", "syllables": "ex-ce-len-te", "stress": "llana"}
+{"word": "extraño", "syllables": "ex-tra-ño", "stress": "llana"}
+{"word": "carro", "syllables": "ca-rro", "stress": "llana"}
+{"word": "calle", "syllables": "ca-lle", "stress": "llana"}
+{"word": "coche", "syllables": "co-che", "stress": "llana"}
+{"word": "perro", "syllables": "pe-rro", "stress": "llana"}
+{"word": "llave", "syllables": "lla-ve", "stress": "llana"}
+{"word": "chocolate", "syllables": "cho-co-la-te", "stress": "llana"}
+{"word": "deshacer", "syllables": "des-ha-cer", "stress": "aguda"}
+{"word": "anhelo", "syllables": "an-he-lo", "stress": "llana"}
+{"word": "adhesión", "syllables": "ad-he-sión", "stress": "aguda"}
+{"word": "inhumano", "syllables": "in-hu-ma-no", "stress": "llana"}
+{"word": "alcohol", "syllables": "al-co-hol", "stress": "aguda"}
+{"word": "búho", "syllables": "bú-ho", "stress": "llana", "hiatus": true}
+{"word": "prohibir", "syllables": "prohi-bir", "stress": "aguda"}
+{"word": "prohíbe", "syllables": "pro-hí-be", "stress": "llana", "hiatus": true}
+{"word": "rehúso", "syllables": "re-hú-so", "stress": "llana", "hiatus": true}
+{"word": "rehusar", "syllables": "rehu-sar", "stress": "aguda"}
+{"word": "ahumar", "syllables": "ahu-mar", "stress": "aguda"}
+{"word": "ahí", "syllables": "a-hí", "stress": "aguda", "hiatus": true}
+{"word": "zanahoria", "syllables": "za-na-ho-ria", "stress": "llana"}
+{"word": "moho", "syllables": "mo-ho", "stress": "llana"}
+{"word": "vahído", "syllables": "va-hí-do", "stress": "llana", "hiatus": true}
+{"word": "cohete", "syllables": "co-he-te", "stress": "llana"}
+{"word": "queso", "syllables": "que-so", "stress": "llana"}
+{"word": "quiero", "syllables": "quie-ro", "stress": "llana"}
+{"word": "química", "syllables": "quí-mi-ca", "stress": "esdrujula"}
+{"word": "guerra", "syllables": "gue-rra", "stress": "llana"}
+{"word": "guitarra", "syllables": "gui-ta-rra", "stress": "llana"}
+{"word": "seguir", "syllables": "se-guir", "stress": "aguda"}
+{"word": "pingüino", "syllables": "pin-güi-no", "stress": "llana"}
+{"word": "vergüenza", "syllables": "ver-güen-za", "stress": "llana"}
+{"word": "cigüeña", "syllables": "ci-güe-ña", "stress": "llana"}
+{"word": "argüir", "syllables": "ar-güir", "stress": "aguda"}
+{"word": "averigüéis", "syllables": "a-ve-ri-güéis", "stress": "aguda"}
+{"word": "guapo", "syllables": "gua-po", "stress": "llana"}
+{"word": "agua", "syllables": "a-gua", "stress": "llana"}
+{"word": "antiguo", "syllables": "an-ti-guo", "stress": "llana"}
+{"word": "lengua", "syllables": "len-gua", "stress": "llana"}
+{"word": "paraguas", "syllables": "pa-ra-guas", "stress": "llana"}
+{"word": "pequeño", "syllables": "pe-que-ño", "stress": "llana"}
+{"word": "aquí", "syllables": "a-quí", "stress": "aguda"}
+{"word": "lingüística", "syllables": "lin-güís-ti-ca", "stress": "esdrujula", "hiatus": false}

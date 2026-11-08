@@ -1,0 +1,3 @@
+// revisa-tray.exe resources: the icon (Explorer, taskbar, Start menu, installer shortcuts).
+// revisa.ico is generated from src/tray/resources/revisa-*.png by src/win/make_ico.py.
+1 ICON "revisa.ico"

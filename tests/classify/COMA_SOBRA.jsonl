@@ -1,0 +1,18 @@
+# COMA_SOBRA: solo se quita una coma (con su espacio, si lo lleva).
+{"from": ",", "to": "", "left": "Los clientes", "right": " recibirán el pedido.", "type": "COMA_SOBRA", "explanation": "Sobra esta coma."}
+{"from": ",", "to": "", "left": "El director de la empresa", "right": " anunció cambios.", "type": "COMA_SOBRA", "explanation": "Sobra esta coma."}
+{"from": ",", "to": "", "left": "Mi hermano y yo", "right": " fuimos al cine.", "type": "COMA_SOBRA"}
+{"from": ",", "to": "", "left": "Todos los alumnos", "right": " aprobaron.", "type": "COMA_SOBRA"}
+{"from": ",", "to": "", "left": "La reunión de mañana", "right": " empieza a las diez.", "type": "COMA_SOBRA"}
+{"from": ",", "to": "", "left": "Los que lleguen tarde", "right": " esperarán fuera.", "type": "COMA_SOBRA"}
+{"from": ", ", "to": " ", "left": "El equipo", "right": " ganó.", "type": "COMA_SOBRA"}
+{"from": " ,", "to": "", "left": "El equipo", "right": " ganó.", "type": "COMA_SOBRA"}
+{"from": ",", "to": "", "left": "Ana", "right": " vino.", "type": "COMA_SOBRA"}
+{"from": ",", "to": "", "left": "El tren de las ocho", "right": " sale con retraso.", "type": "COMA_SOBRA"}
+# Negativos: otro signo, dos comas, se cambia por otro signo, se añade.
+{"from": ";", "to": "", "left": "El equipo", "right": " ganó.", "type": "OTRO"}
+{"from": ",,", "to": "", "left": "El equipo", "right": " ganó.", "type": "OTRO"}
+{"from": ",", "to": ".", "left": "El equipo ganó", "right": " Luego cenamos.", "type": "OTRO"}
+{"from": "", "to": ",", "left": "Hola", "right": " Ana.", "type": "OTRO"}
+{"from": ", y", "to": " y", "left": "Pan", "right": " leche.", "type": "OTRO"}
+{"from": ".", "to": "", "left": "Fin", "right": "", "type": "OTRO"}

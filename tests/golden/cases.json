@@ -1,0 +1,42 @@
+[
+  {
+    "id": "normal",
+    "segment": "Hola Ana, haber si mañana podemos vernos."
+  },
+  {
+    "id": "tildes_enies",
+    "segment": "El niño pidió un café y una caña el año pasado, y Ángel sonrió."
+  },
+  {
+    "id": "emoji",
+    "segment": "¡Felicidades por el ascenso! 🎉 Mañana lo celebramos en familia 👨‍👩‍👧 y con tarta 🎂"
+  },
+  {
+    "id": "comillas_saltos",
+    "segment": "Me dijo \"vale\" y luego «ya veremos».\nNo sé que pensar.\nTú qué crees?"
+  },
+  {
+    "id": "largo_400",
+    "segment": "Buen día, Marta: te escribo para confirmarte que la reunión con el equipo de ventas será el jueves a las diez en la sala grande del segundo piso. Me gustaría que trajeras el informe del último trimestre y los datos de los nuevos clientes, porque el director quiere revisarlas antes de aprobar el presupuesto. Si no puedes venir, avísame cuanto antes para buscar otra fecha que nos venga bien a todos."
+  },
+  {
+    "id": "trim_unicode",
+    "segment": " \t 　Nos vemos el lunes en la ofizina.　 \t "
+  },
+  {
+    "id": "abre_interrogacion",
+    "segment": "¿Que hora es y cuando llega el tren?"
+  },
+  {
+    "id": "empieza_digito",
+    "segment": "3 personas me han preguntado por el pedido de ayer."
+  },
+  {
+    "id": "empieza_espacio_tras_salto",
+    "segment": "Lista de la compra:\n   leche, huevos y pan.\n  Y no te olvides del aceite."
+  },
+  {
+    "id": "mayusculas",
+    "segment": "URGENTE: nesecito el informe antes de las cinco."
+  }
+]

@@ -1,0 +1,101 @@
+# Abreviaturas tras las que el segmentador NO corta la frase.
+# Fuente: Ortografía de la lengua española (RAE y ASALE, 2010), apéndice 2 («Lista de
+# abreviaturas»), con la grafía académica (mayúscula inicial en los tratamientos y títulos:
+# «Excmo.», «Lic.»), más la grafía sin espacio interior más frecuente («p.ej.»).
+#
+# Formato: abreviatura [TAB fin]
+#   - se compara tal cual (mayúsculas incluidas) y también con la primera letra en mayúscula,
+#     para el principio de frase (etc. → Etc.);
+#   - delante de la abreviatura no puede haber letra ni cifra (frontera de palabra);
+#   - cualquier punto de la abreviatura bloquea el corte, también los interiores (el de «EE.»
+#     en «EE. UU.»);
+#   - «fin»: la abreviatura suele cerrar frase. Su punto final vale también de punto de frase
+#     (Ortografía 2010, «etc.» a final de enunciado), así que se corta si sigue espacio y
+#     mayúscula, como tras un punto normal.
+# Las iniciales sueltas (J. R. R. Tolkien) no van aquí: las trata el segmentador como regla.
+a. C.
+a. m.	fin
+admón.
+apdo.
+aprox.
+art.
+atte.
+av.
+avda.
+c. e.
+cap.
+cf.
+cfr.
+Cía.
+cód.
+coord.
+d. C.
+dcha.
+depto.
+doc.
+dpto.
+Dr.
+Dra.
+Dres.
+Dña.
+ed.
+EE. UU.
+ej.
+esq.
+et al.
+etc.	fin
+Excmo.
+Excma.
+fig.
+gral.
+Hnos.
+ib.
+ibid.
+Ilmo.
+Ilma.
+Ing.
+izq.
+izqda.
+Lic.
+loc. cit.
+máx.
+mín.
+n.º
+núm.
+nro.
+ob. cit.	fin
+op. cit.	fin
+p.
+p. ej.
+p.ej.
+p. m.	fin
+pág.
+págs.
+pp.
+pral.
+prof.
+profa.
+prov.
+pza.
+S. A.	fin
+S. L.	fin
+s. f.	fin
+sig.	fin
+sigs.	fin
+Sr.
+Sra.
+Sras.
+Sres.
+Srta.
+Sta.
+Sto.
+tel.
+teléf.
+Ud.	fin
+Uds.	fin
+urb.
+Vd.	fin
+Vds.	fin
+vid.
+vol.
+vs.

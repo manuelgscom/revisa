@@ -1,0 +1,25 @@
+# Casos de las guardas (src/core/guard). Dos formas:
+#   {segment, output, invalid}: guard::invalid_output.
+#   {marked, types, protected?, output?, disabled?, kept | rejection}: guard::apply. «marked» es el
+#   segmento con cada edición escrita [de|a]; types, el tipo dado a mano de cada una (sin clasificador);
+#   protected, los tramos protegidos como subcadenas; kept, los índices de las ediciones que quedan.
+{"segment": "Hola Ana, ¿vienes?", "output": "Hola Ana, ¿vienes?", "invalid": false}
+{"segment": "Hola Ana", "output": "", "invalid": true}
+{"segment": "Hola Ana", "output": " \n\t ", "invalid": true}
+{"segment": "Hola Ana", "output": "<think>\nok\n</think>\n\nHola, Ana", "invalid": true}
+{"segment": "Hola Ana", "output": "Hola Ana</think>", "invalid": true}
+{"segment": "Hola Ana", "output": "«Hola Ana»", "invalid": true}
+{"segment": "Hola Ana", "output": "\"Hola Ana\"", "invalid": true}
+{"segment": "Hola Ana", "output": "“Hola Ana”", "invalid": true}
+{"segment": "Hola Ana", "output": "'Hola Ana'", "invalid": true}
+{"segment": "Hola Ana", "output": "  «Hola Ana»\n", "invalid": true}
+{"segment": "«Hola Ana»", "output": "«Hola Ana»", "invalid": false}
+{"segment": "\"Hola Ana\"", "output": "\"Hola, Ana\"", "invalid": false}
+{"segment": "«Hola Ana»", "output": "\"Hola Ana\"", "invalid": true}
+{"segment": "«Hola», dijo él.", "output": "«Hola», dijo él.", "invalid": false}
+{"segment": "Dijo «hola»", "output": "Dijo «hola»", "invalid": false}
+{"segment": "«Hola» y «adiós»", "output": "«Hola» y «adiós»", "invalid": false}
+{"segment": "Hola Ana", "output": "Hola Ana\n", "invalid": false}
+{"segment": "Hola Ana", "output": "Hola Ana", "invalid": false}
+{"marked": "Hola Ana", "output": "", "types": [], "rejection": "InvalidOutput"}
+{"marked": "[haber|a ver] si vienes mañana a casa", "output": "«a ver si vienes mañana a casa»", "types": ["HABER_A_VER"], "rejection": "InvalidOutput"}

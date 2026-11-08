@@ -1,0 +1,18 @@
+# Falsos positivos que no deben protegerse.
+{"segment": "Frutas, p. ej. manzanas, etc. y más.", "spans": [], "fully_protected": false, "special": false}
+{"segment": "hola.Adiós", "spans": [], "fully_protected": false, "special": false}
+{"segment": "casa.luego vengo", "spans": [], "fully_protected": false, "special": false}
+{"segment": "dime la verdad.me voy", "spans": [], "fully_protected": false, "special": false}
+{"segment": "EE.UU. es grande", "spans": [], "fully_protected": false, "special": false}
+{"segment": "Usa y/o según el caso.", "spans": [], "fully_protected": false, "special": false}
+{"segment": "El 1/2 de la tarta.", "spans": [], "fully_protected": false, "special": false}
+{"segment": "Somos amig@s y nos queremos.", "spans": [], "fully_protected": false, "special": false}
+{"segment": "Es el #1 del ranking.", "spans": [], "fully_protected": false, "special": false}
+{"segment": "Tengo 2 manzanas y 3 peras.", "spans": [], "fully_protected": false, "special": false}
+{"segment": "Mide 3.5 metros.", "spans": [], "fully_protected": false, "special": false}
+{"segment": "Llegó el 5º en la carrera.", "spans": [], "fully_protected": false, "special": false}
+{"segment": "A las 25:3 no.", "spans": [], "fully_protected": false, "special": false}
+{"segment": "Tienes `` vacío.", "spans": [], "fully_protected": false, "special": false}
+{"segment": "Abre `esto sin cerrar.", "spans": [], "fully_protected": false, "special": false}
+{"segment": "No es <| nada |> ni <|.", "spans": [], "fully_protected": false, "special": false}
+{"segment": "Esto. Es otra cosa.", "spans": [], "fully_protected": false, "special": false}

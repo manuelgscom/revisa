@@ -1,0 +1,13 @@
+# Casos de las guardas (src/core/guard). Dos formas:
+#   {segment, output, invalid}: guard::invalid_output.
+#   {marked, types, protected?, output?, disabled?, kept | rejection}: guard::apply. «marked» es el
+#   segmento con cada edición escrita [de|a]; types, el tipo dado a mano de cada una (sin clasificador);
+#   protected, los tramos protegidos como subcadenas; kept, los índices de las ediciones que quedan.
+{"marked": "Mira https://ejemplo.es/[doc|Doc] cuando puedas, por favor.", "protected": ["https://ejemplo.es/doc"], "types": ["MAYUSCULA"], "kept": []}
+{"marked": "Mira [https|http]://ejemplo.es cuando puedas, por favor.", "protected": ["https://ejemplo.es"], "types": ["OTRO"], "kept": [], "note": "solapa el principio del tramo"}
+{"marked": "Escríbeme a ana@ejem[|p]lo.es cuando puedas.", "protected": ["ana@ejemlo.es"], "types": ["ERRATA"], "kept": [], "note": "inserción en el interior del tramo"}
+{"marked": "Mira[| ]https://ejemplo.es cuando puedas por favor.", "protected": ["https://ejemplo.es"], "types": ["ESPACIADO"], "kept": [0], "note": "inserción en el borde: no toca el tramo"}
+{"marked": "Mira https://ejemplo.es[|,] cuando puedas por favor.", "protected": ["https://ejemplo.es"], "types": ["OTRO"], "kept": [], "note": "inserción en el borde final; la guarda 4 la descarta por la coma"}
+{"marked": "Mira https://ejemplo.es [qe|que] te gustará mucho.", "protected": ["https://ejemplo.es"], "types": ["ERRATA"], "kept": [0], "note": "edición junto al tramo"}
+{"marked": "Usa `git [comit|commit]` y luego [haber|a ver] qué pasa.", "protected": ["`git comit`"], "types": ["ERRATA", "HABER_A_VER"], "kept": [1]}
+{"marked": "Quedamos a las 18:30 en [la|el] bar de siempre.", "protected": ["18:30"], "types": ["CONCORDANCIA"], "kept": [0]}

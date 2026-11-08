@@ -1,0 +1,19 @@
+# Casos del clasificador: from, to, left, right, type y, si está, explanation exacta.
+# Solo se añade «¿» o «¡».
+{"from": "", "to": "¿", "left": "", "right": "que tal estas?", "type": "SIGNO_APERTURA", "explanation": "En castellano, las preguntas y exclamaciones se abren con «¿» y «¡»."}
+{"from": "", "to": "¡", "left": "", "right": "qué bien!", "type": "SIGNO_APERTURA", "explanation": "En castellano, las preguntas y exclamaciones se abren con «¿» y «¡»."}
+{"from": "", "to": "¿", "left": "Nos vemos a las 5, ", "right": "te parece?", "type": "SIGNO_APERTURA"}
+{"from": "", "to": "¿", "left": "Hola, ", "right": "vienes?", "type": "SIGNO_APERTURA"}
+{"from": "", "to": "¡", "left": "Ana, ", "right": "enhorabuena!", "type": "SIGNO_APERTURA"}
+{"from": "", "to": "¿", "left": "", "right": "Vienes?", "type": "SIGNO_APERTURA"}
+{"from": "", "to": "¡", "left": "Vale. ", "right": "Genial!", "type": "SIGNO_APERTURA"}
+{"from": "", "to": "¿", "left": "Y ", "right": "tú?", "type": "SIGNO_APERTURA"}
+{"from": "", "to": "¿", "left": "", "right": "Qué hora es?", "type": "SIGNO_APERTURA"}
+{"from": "", "to": "¡", "left": "", "right": "Ay, qué susto!", "type": "SIGNO_APERTURA"}
+{"from": "", "to": "¿", "left": "Oye, ", "right": "a qué hora?", "type": "SIGNO_APERTURA"}
+{"from": "", "to": "¡", "left": "Por fin, ", "right": "ya era hora!", "type": "SIGNO_APERTURA"}
+{"from": "", "to": "?", "left": "Vienes", "right": "", "type": "OTRO"}
+{"from": "", "to": "¿¡", "left": "", "right": "Qué?!", "type": "OTRO"}
+{"from": "¿", "to": "", "left": "", "right": "Vienes?", "type": "OTRO"}
+{"from": "", "to": ",", "left": "Hola", "right": " Ana", "type": "OTRO"}
+{"from": " ", "to": "", "left": "Vienes", "right": "?", "type": "ESPACIADO"}

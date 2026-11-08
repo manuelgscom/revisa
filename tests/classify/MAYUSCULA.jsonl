@@ -1,0 +1,20 @@
+# Casos del clasificador: from, to, left, right, type y, si está, explanation exacta.
+# Iguales salvo mayúsculas. Negativos: tildes, días y meses con mayúscula, minúscula al inicio.
+{"from": "hola", "to": "Hola", "left": "", "right": ", ¿qué tal?", "type": "MAYUSCULA", "explanation": "Mayúscula al inicio de frase."}
+{"from": "mañana", "to": "Mañana", "left": "Vale. ", "right": " te llamo", "type": "MAYUSCULA", "explanation": "Mayúscula al inicio de frase."}
+{"from": "el", "to": "El", "left": "Gracias.\n", "right": " informe está listo", "type": "MAYUSCULA", "explanation": "Mayúscula al inicio de frase."}
+{"from": "nos", "to": "Nos", "left": "¿Vienes? ", "right": " vemos allí", "type": "MAYUSCULA", "explanation": "Mayúscula al inicio de frase."}
+{"from": "madrid", "to": "Madrid", "left": "Vivo en ", "right": " desde mayo", "type": "MAYUSCULA", "explanation": "Nombre propio: con mayúscula."}
+{"from": "ana", "to": "Ana", "left": "Hola, ", "right": ", ¿qué tal?", "type": "MAYUSCULA", "explanation": "Nombre propio: con mayúscula."}
+{"from": "españa", "to": "España", "left": "Vuelvo a ", "right": " en julio", "type": "MAYUSCULA", "explanation": "Nombre propio: con mayúscula."}
+{"from": "Marzo", "to": "marzo", "left": "el lunes 3 de ", "right": "", "type": "MAYUSCULA", "explanation": "Los días de la semana y los meses se escriben con minúscula, salvo al comienzo de un enunciado o cuando forman parte de un nombre propio."}
+{"from": "Lunes", "to": "lunes", "left": "Nos vemos el ", "right": " por la tarde", "type": "MAYUSCULA", "explanation": "Los días de la semana y los meses se escriben con minúscula, salvo al comienzo de un enunciado o cuando forman parte de un nombre propio."}
+{"from": "Miércoles", "to": "miércoles", "left": "hasta el ", "right": "", "type": "MAYUSCULA", "explanation": "Los días de la semana y los meses se escriben con minúscula, salvo al comienzo de un enunciado o cuando forman parte de un nombre propio."}
+{"from": "Septiembre", "to": "septiembre", "left": "Empiezo en ", "right": "", "type": "MAYUSCULA", "explanation": "Los días de la semana y los meses se escriben con minúscula, salvo al comienzo de un enunciado o cuando forman parte de un nombre propio."}
+{"from": "Setiembre", "to": "setiembre", "left": "Empiezo en ", "right": "", "type": "MAYUSCULA", "explanation": "Los días de la semana y los meses se escriben con minúscula, salvo al comienzo de un enunciado o cuando forman parte de un nombre propio."}
+{"from": "Ingeniero", "to": "ingeniero", "left": "Es ", "right": " de caminos", "type": "MAYUSCULA", "explanation": "«ingeniero» se escribe con minúscula."}
+{"from": "Español", "to": "español", "left": "Hablo ", "right": " e inglés", "type": "MAYUSCULA", "explanation": "«español» se escribe con minúscula."}
+{"from": "que", "to": "Qué", "left": "", "right": " tal estás?", "type": "TILDE_INTERROGATIVA"}
+{"from": "marzo", "to": "Marzo", "left": "el 3 de ", "right": "", "type": "OTRO"}
+{"from": "Hola", "to": "hola", "left": "", "right": ", Ana", "type": "OTRO"}
+{"from": "tu", "to": "Tú", "left": "", "right": " sabrás", "type": "TILDE_DIACRITICA"}

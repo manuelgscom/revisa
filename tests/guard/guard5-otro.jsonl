@@ -1,0 +1,11 @@
+# Casos de las guardas (src/core/guard). Dos formas:
+#   {segment, output, invalid}: guard::invalid_output.
+#   {marked, types, protected?, output?, disabled?, kept | rejection}: guard::apply. «marked» es el
+#   segmento con cada edición escrita [de|a]; types, el tipo dado a mano de cada una (sin clasificador);
+#   protected, los tramos protegidos como subcadenas; kept, los índices de las ediciones que quedan.
+{"marked": "Me gusta mucho la casa que habéis comprado este año.", "types": [], "kept": []}
+{"marked": "Me [gusta|encanta] mucho la casa que habéis comprado este año.", "types": ["OTRO"], "kept": [0]}
+{"marked": "Me [gusta|encanta] mucho la casa [nueva|bonita] que habéis comprado.", "types": ["OTRO", "OTRO"], "rejection": "TooManyOtro"}
+{"marked": "Me [gusta|encanta] mucho la casa[|,] que habéis comprado este año.", "types": ["OTRO", "OTRO"], "kept": [0], "note": "la coma se descarta antes de contar"}
+{"marked": "Me [gusta|encanta] mucho la casa [nueva|bonita] que habéis comprado.", "types": ["OTRO", "OTRO"], "disabled": ["OTRO"], "rejection": "TooManyOtro", "note": "la guarda 5 va antes que los tipos desactivados"}
+{"marked": "Ya [e|he] [echo|hecho] el informe [y|e] te lo mando mañana por la tarde.", "types": ["VERBO_HABER_H", "ECHO_HECHO", "OTRO"], "kept": [0, 1, 2]}

@@ -1,0 +1,13 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+  <qresource prefix="/revisa">
+    <file>revisa-16.png</file>
+    <file>revisa-22.png</file>
+    <file>revisa-24.png</file>
+    <file>revisa-32.png</file>
+    <file>revisa-48.png</file>
+    <file>revisa-64.png</file>
+    <file>revisa-128.png</file>
+    <file>revisa-256.png</file>
+  </qresource>
+</RCC>

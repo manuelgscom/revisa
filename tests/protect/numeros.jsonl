@@ -1,0 +1,15 @@
+# Números con unidades, monedas y horas.
+{"segment": "Corrí 10 km en 50 min.", "spans": ["10 km", "50 min"], "fully_protected": false, "special": false}
+{"segment": "Sube un 5 % y luego un 5%.", "spans": ["5 %", "5%"], "fully_protected": false, "special": false}
+{"segment": "Quedamos a las 18:30 o a las 9:15 h.", "spans": ["18:30", "9:15 h"], "fully_protected": false, "special": false}
+{"segment": "A las 12h vamos.", "spans": ["12h"], "fully_protected": false, "special": false}
+{"segment": "Ocupa 3,5 GB y 1.000 MB.", "spans": ["3,5 GB", "1.000 MB"], "fully_protected": false, "special": false}
+{"segment": "Cuesta 20 € o $20 o € 5.", "spans": ["20 €", "$20", "€ 5"], "fully_protected": false, "special": false}
+{"segment": "Va a 120 km/h y gasta 3 kWh.", "spans": ["120 km/h", "3 kWh"], "fully_protected": false, "special": false}
+{"segment": "Hace 30 °C fuera.", "spans": ["30 °C"], "fully_protected": false, "special": false}
+{"segment": "Son las 10:05:30 ya.", "spans": ["10:05:30"], "fully_protected": false, "special": false}
+{"segment": "18:30", "spans": ["18:30"], "fully_protected": true, "special": false}
+{"segment": "10 km, 5 %.", "spans": ["10 km", "5 %"], "fully_protected": true, "special": false}
+{"segment": "Hora: 7:45.", "spans": ["7:45"], "fully_protected": false, "special": false}
+{"segment": "Pesa 5 kg.", "spans": ["5 kg"], "fully_protected": false, "special": false}
+{"segment": "El modelo MP3 de 2 m.", "spans": ["2 m"], "fully_protected": false, "special": false}

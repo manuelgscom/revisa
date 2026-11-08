@@ -1,0 +1,10 @@
+# Pares entre «hay», «ahí», «ay» y «ai» (HAY_AHI_AY). Columnas: de, a, explicación.
+# Se buscan en los dos sentidos, sin distinguir mayúsculas ni tildes («ahi» cuenta como «ahí»);
+# la explicación vale para los dos. «ahi» -> «ahí» es TILDE_FALTA, que va antes.
+# Fuente: DPD, s. v. «ahí» y «haber»; Ortografía 2010, cap. I (la letra h).
+hay	ahí	«hay» es del verbo «haber» («hay pan»); «ahí» es un adverbio, generalmente de lugar («está ahí»).
+hay	ay	«hay» es del verbo «haber» («hay pan»); «ay» es una interjección («¡ay, qué daño!») o un sustantivo («un ay»).
+ahí	ay	«ahí» es un adverbio, generalmente de lugar («está ahí»); «ay» es una interjección («¡ay!») o un sustantivo («un ay»).
+ai	hay	«hay», del verbo «haber», se escribe con hache y con «y»; «ai» no existe.
+ai	ahí	«ahí», el adverbio, se escribe con hache y con tilde; «ai» no existe.
+ai	ay	«ay», interjección o sustantivo, se escribe con «y»; «ai» no existe.

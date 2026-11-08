@@ -1,0 +1,23 @@
+# Casos del clasificador: from, to, left, right, type y, si está, explanation exacta.
+# Pares de la lista diacrítica, en los dos sentidos. Negativos: solo, demostrativos, interrogativos.
+{"from": "tu", "to": "tú", "left": "¿Y ", "right": "?", "type": "TILDE_DIACRITICA", "explanation": "«tú» (pronombre) lleva tilde; «tu» (posesivo), no."}
+{"from": "tú", "to": "tu", "left": "Me gusta ", "right": " casa", "type": "TILDE_DIACRITICA", "explanation": "«tú» (pronombre) lleva tilde; «tu» (posesivo), no."}
+{"from": "el", "to": "él", "left": "Es para ", "right": "", "type": "TILDE_DIACRITICA", "explanation": "«él» (pronombre) lleva tilde; «el» (artículo), no."}
+{"from": "él", "to": "el", "left": "Trae ", "right": " coche", "type": "TILDE_DIACRITICA"}
+{"from": "mi", "to": "mí", "left": "Es para ", "right": "", "type": "TILDE_DIACRITICA", "explanation": "«mí» lleva tilde cuando es pronombre («para mí»); en los demás casos («mi casa», la nota «mi»), se escribe sin tilde."}
+{"from": "mí", "to": "mi", "left": "Es ", "right": " casa", "type": "TILDE_DIACRITICA"}
+{"from": "si", "to": "sí", "left": "Dijo que ", "right": "", "type": "TILDE_DIACRITICA"}
+{"from": "sí", "to": "si", "left": "", "right": " vienes, avisa", "type": "TILDE_DIACRITICA"}
+{"from": "se", "to": "sé", "left": "No ", "right": " nada", "type": "TILDE_DIACRITICA", "explanation": "«sé», de «saber» o de «ser» («no sé», «sé amable»), lleva tilde; la forma átona «se» («se fue», «se vende»), no."}
+{"from": "sé", "to": "se", "left": "Ya ", "right": " fue", "type": "TILDE_DIACRITICA"}
+{"from": "de", "to": "dé", "left": "Espero que te ", "right": " tiempo", "type": "TILDE_DIACRITICA", "explanation": "«dé» lleva tilde cuando es del verbo «dar» («que te dé»); en los demás casos (la preposición, el nombre de la letra), «de» se escribe sin tilde."}
+{"from": "te", "to": "té", "left": "¿Quieres un ", "right": "?", "type": "TILDE_DIACRITICA", "explanation": "«té» (la planta, sus hojas, la infusión o la reunión en que se toma) lleva tilde; el pronombre «te» y el nombre de la letra «te», no."}
+{"from": "mas", "to": "más", "left": "Quiero ", "right": " café", "type": "TILDE_DIACRITICA", "explanation": "«mas» se escribe sin tilde solo cuando es conjunción adversativa («quería ir, mas no pudo»); en todos los demás usos se escribe «más»."}
+{"from": "aun", "to": "aún", "left": "", "right": " no ha llegado", "type": "TILDE_DIACRITICA", "explanation": "«aún» lleva tilde cuando equivale a «todavía»; en los demás casos («incluso», «aun así», «aun cuando»), «aun» se escribe sin tilde."}
+{"from": "aún", "to": "aun", "left": "", "right": " así, iré", "type": "TILDE_DIACRITICA"}
+{"from": "Tu", "to": "Tú", "left": "", "right": " sabrás", "type": "TILDE_DIACRITICA"}
+{"from": "solo", "to": "sólo", "left": "Vino ", "right": " él", "type": "TILDE_FALTA", "explanation": "«sólo» lleva tilde."}
+{"from": "este", "to": "éste", "left": "Prefiero ", "right": "", "type": "TILDE_FALTA"}
+{"from": "que", "to": "qué", "left": "No sé ", "right": " hacer", "type": "TILDE_INTERROGATIVA"}
+{"from": "tu", "to": "Tu", "left": "", "right": " casa", "type": "MAYUSCULA"}
+{"from": "ti", "to": "tí", "left": "Es para ", "right": "", "type": "TILDE_FALTA", "explanation": "«tí» lleva tilde."}

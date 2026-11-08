@@ -1,0 +1,21 @@
+# LOISMO: lo/los -> le/les con el mismo número, solo o enclítico.
+{"from": "lo", "to": "le", "left": "", "right": " di un regalo.", "type": "LOISMO", "explanation": "Complemento indirecto: «le», no «lo» (loísmo)."}
+{"from": "Los", "to": "Les", "left": "", "right": " dije que vinieran.", "type": "LOISMO", "explanation": "Complemento indirecto: «Les», no «Los» (loísmo)."}
+{"from": "los", "to": "les", "left": "A mis hijos ", "right": " di dinero.", "type": "LOISMO", "explanation": "Complemento indirecto: «les», no «los» (loísmo)."}
+{"from": "lo", "to": "le", "left": "A Juan ", "right": " duele la cabeza.", "type": "LOISMO"}
+{"from": "dilo", "to": "dile", "left": "", "right": " que venga.", "type": "LOISMO", "explanation": "Complemento indirecto: «dile», no «dilo» (loísmo)."}
+{"from": "pegarlo", "to": "pegarle", "left": "No hace falta ", "right": " un grito.", "type": "LOISMO"}
+{"from": "dándolo", "to": "dándole", "left": "Lo animó ", "right": " las gracias.", "type": "LOISMO"}
+{"from": "decidlos", "to": "decidles", "left": "", "right": " que pasen.", "type": "LOISMO"}
+{"from": "pregúntalo", "to": "pregúntale", "left": "", "right": " a tu padre.", "type": "LOISMO"}
+{"from": "escribirlos", "to": "escribirles", "left": "Hay que ", "right": " a los clientes.", "type": "LOISMO"}
+{"from": "ponlo", "to": "ponle", "left": "", "right": " sal a la sopa.", "type": "LOISMO"}
+{"from": "dalo", "to": "dale", "left": "", "right": " las gracias.", "type": "LOISMO"}
+# Negativos.
+{"from": "solo", "to": "sole", "left": "", "right": ".", "type": "OTRO"}
+{"from": "palo", "to": "pale", "left": "El ", "right": ".", "type": "OTRO"}
+{"from": "velo", "to": "vele", "left": "El ", "right": ".", "type": "OTRO"}
+{"from": "lo", "to": "la", "left": "", "right": " vi.", "type": "OTRO"}
+{"from": "los", "to": "le", "left": "", "right": " dije.", "type": "OTRO"}
+{"from": "suelo", "to": "suele", "left": "El ", "right": ".", "type": "OTRO"}
+{"from": "les", "to": "los", "left": "Los coches ", "right": " lavé.", "type": "LEISMO"}

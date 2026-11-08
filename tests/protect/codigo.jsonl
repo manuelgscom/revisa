@@ -1,0 +1,11 @@
+# Código entre comillas invertidas, rutas y tokens especiales.
+{"segment": "Ejecuta `make all` y luego `ls -la`.", "spans": ["`make all`", "`ls -la`"], "fully_protected": false, "special": false}
+{"segment": "`git status`", "spans": ["`git status`"], "fully_protected": true, "special": false}
+{"segment": "Está en /usr/bin/env ahora.", "spans": ["/usr/bin/env"], "fully_protected": false, "special": false}
+{"segment": "Mira ~/notas.txt y ./a.txt o ../b/c.md.", "spans": ["~/notas.txt", "./a.txt", "../b/c.md"], "fully_protected": false, "special": false}
+{"segment": "Guárdalo en C:\\Users\\Ana\\doc.txt hoy", "spans": ["C:\\Users\\Ana\\doc.txt"], "fully_protected": false, "special": false}
+{"segment": "Ruta \\\\servidor\\compartido aquí", "spans": ["\\\\servidor\\compartido"], "fully_protected": false, "special": false}
+{"segment": "(/etc/hosts)", "spans": ["/etc/hosts"], "fully_protected": true, "special": false}
+{"segment": "Escribe <|im_end|> aquí", "spans": ["<|im_end|>"], "fully_protected": false, "special": true}
+{"segment": "<|im_start|>system", "spans": ["<|im_start|>"], "fully_protected": false, "special": true}
+{"segment": "<|endoftext|>", "spans": ["<|endoftext|>"], "fully_protected": true, "special": true}

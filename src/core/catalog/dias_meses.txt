@@ -1,0 +1,24 @@
+# Días de la semana y meses del año (MAYUSCULA, variante «dias_meses»). Una palabra por línea.
+# Se escriben con minúscula inicial salvo al inicio de frase o en nombres propios. Se excluyen los
+# que también son nombres de pila frecuentes («Domingo», «Abril», «Julio»): con ellos, pasar a
+# minúscula usa la explicación general de MAYUSCULA.
+# Fuente: Ortografía 2010, cap. IV (minúscula en los nombres de los días, los meses y las
+# estaciones); DPD, s. v. «mayúsculas». «setiembre» es variante admitida de «septiembre»
+# (DPD, s. v. «septiembre»).
+lunes
+martes
+miércoles
+jueves
+viernes
+sábado
+enero
+febrero
+marzo
+mayo
+junio
+agosto
+septiembre
+setiembre
+octubre
+noviembre
+diciembre

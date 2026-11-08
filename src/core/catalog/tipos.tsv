@@ -1,0 +1,35 @@
+# Tipos del catálogo v1, en el orden de las tablas.
+# El clasificador los evalúa en este orden, salvo ERRATA, que va el último.
+# catalogo_doc_test comprueba que coincide con el documento.
+# id	inyectable
+ESPACIADO	sí
+MAYUSCULA	sí
+TILDE_DIACRITICA	sí
+TILDE_INTERROGATIVA	sí
+POR_QUE	sí
+TILDE_FALTA	sí
+TILDE_SOBRA	sí
+HABER_A_VER	sí
+VERBO_HABER_H	sí
+ECHO_HECHO	sí
+HAY_AHI_AY	sí
+SINO_SI_NO	sí
+JUNTO_SEPARADO	sí
+B_V	sí
+G_J	sí
+H	sí
+LL_Y	sí
+C_Z_S_X	sí
+SIGNO_APERTURA	sí
+ERRATA	sí
+DEQUEISMO	sí
+QUEISMO	sí
+LEISMO	sí
+LAISMO	sí
+LOISMO	sí
+HABER_IMPERSONAL	sí
+IMPERATIVO	sí
+PRETERITO_S	sí
+CONJUGACION	sí
+CONCORDANCIA	sí
+COMA_SOBRA	sí

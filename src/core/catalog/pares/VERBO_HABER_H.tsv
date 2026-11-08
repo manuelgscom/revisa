@@ -1,0 +1,7 @@
+# Quitar la hache de una forma de «haber» (VERBO_HABER_H). Columnas: de, a, explicación.
+# SOLO en el sentido de la fila (de -> a). El sentido contrario (a -> ha, e -> he, as -> has,
+# an -> han) usa la explicación general del tipo (explicaciones/ortografia.tsv).
+# Fuente: Ortografía 2010, cap. I (la letra h); DPD, s. v. «haber», «a²» y «e²».
+ha	a	«a» es la preposición; «ha» es del verbo «haber» («ha venido», «ha de venir»).
+he	e	«e» es la conjunción («padres e hijos»); «he» es del verbo «haber» («he comido»).
+has	as	«as» es un sustantivo («un as»); «has» es del verbo «haber» («has visto»).

@@ -1,0 +1,17 @@
+# Casos de las guardas (src/core/guard). Dos formas:
+#   {segment, output, invalid}: guard::invalid_output.
+#   {marked, types, protected?, output?, disabled?, kept | rejection}: guard::apply. «marked» es el
+#   segmento con cada edición escrita [de|a]; types, el tipo dado a mano de cada una (sin clasificador);
+#   protected, los tramos protegidos como subcadenas; kept, los índices de las ediciones que quedan.
+{"marked": "[e echo|he hecho] el informe", "types": ["OTRO"], "kept": [0], "note": "Levenshtein 2 / 17: se cuentan los caracteres cambiados, no la palabra entera"}
+{"marked": "[e|he] [echo|hecho] el informe", "types": ["VERBO_HABER_H", "ECHO_HECHO"], "kept": [0, 1], "note": "1 + 1 de 17"}
+{"marked": "[que|¿Qué] tal [estas?|estás?]", "types": ["TILDE_INTERROGATIVA", "TILDE_FALTA"], "kept": [0, 1], "note": "3 + 1 de 14 = 0,29"}
+{"marked": "La [casa|perra] es grande", "types": ["OTRO"], "kept": [0], "note": "Levenshtein(casa, perra) = 4 de 17 = 0,24: pasa"}
+{"marked": "Es [verde|azul]", "types": ["OTRO"], "rejection": "ChangeRatio", "note": "Levenshtein(verde, azul) = 5 de 8"}
+{"marked": "Ya [e|he] [echo|hecho] el informe de ayer", "types": ["VERBO_HABER_H", "ECHO_HECHO"], "kept": [0, 1], "note": "2 / 29"}
+{"marked": "[abc|xyz]defghij", "types": ["OTRO"], "kept": [0], "note": "exactamente 0,3: no supera el umbral"}
+{"marked": "[abcd|xyzw]efghij", "types": ["OTRO"], "rejection": "ChangeRatio", "note": "0,4"}
+{"marked": "[|xyz]abcdefghij", "types": ["OTRO"], "kept": [0], "note": "inserción: cuenta lo que añade"}
+{"marked": "[ñññ|]abcdefg", "types": ["OTRO"], "kept": [0], "note": "se cuentan puntos de código, no bytes"}
+{"marked": "Hola[|,] Ana[|,] [|¿]qué tal?", "types": ["OTRO", "OTRO", "SIGNO_APERTURA"], "kept": [2], "note": "3 / 17: las comas cuentan en la proporción aunque luego se descarten"}
+{"marked": "Me parece que [la reunión de mañana no es buena idea|mañana no deberíamos reunirnos].", "types": ["OTRO"], "rejection": "ChangeRatio"}

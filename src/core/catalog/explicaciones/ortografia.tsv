@@ -1,0 +1,61 @@
+# Explicaciones de los tipos de ortografía. Columnas: id, variante, plantilla.
+# La variante vacía es la de por defecto. Las explicaciones propias de cada par van en pares/<ID>.tsv.
+# Marcadores: {de} (texto original), {a} (corregido), {letra}, {regla}, {con/sin}.
+# Fuente general: Ortografía de la lengua española (RAE y ASALE, 2010).
+# id	variante	plantilla
+ESPACIADO		Espaciado junto a los signos de puntuación.
+# Mayúsculas: Ortografía 2010, cap. IV (uso de mayúsculas y minúsculas: mayúscula tras punto y en
+# los nombres propios; minúscula en los días de la semana y los meses).
+MAYUSCULA	inicio	Mayúscula al inicio de frase.
+MAYUSCULA	dias_meses	Los días de la semana y los meses se escriben con minúscula, salvo al comienzo de un enunciado o cuando forman parte de un nombre propio.
+MAYUSCULA	nombre_propio	Nombre propio: con mayúscula.
+MAYUSCULA	minuscula	«{a}» se escribe con minúscula.
+# Interrogativos y exclamativos tónicos: Ortografía 2010, cap. II (tilde diacrítica en
+# interrogativos y exclamativos); DPD, s. v. «qué», «cómo», «dónde».
+TILDE_INTERROGATIVA		«{a}» lleva tilde porque aquí es interrogativo o exclamativo, también en preguntas indirectas.
+TILDE_INTERROGATIVA	con_mayuscula	«{a}» lleva tilde porque aquí es interrogativo o exclamativo, y mayúscula al inicio de frase.
+# Reglas generales de acentuación: Ortografía 2010, cap. II (reglas generales; palabras con
+# diptongo, triptongo e hiato; monosílabos; adverbios en «-mente»). La variante «sin_regla» se usa
+# cuando el silabeo no da una regla que pida o quite la tilde.
+TILDE_FALTA		«{a}» lleva tilde: {regla}.
+TILDE_FALTA	sin_regla	«{a}» lleva tilde.
+TILDE_SOBRA		«{a}» no lleva tilde: {regla}.
+TILDE_SOBRA	sin_regla	«{a}» no lleva tilde.
+# Textos de {regla} (los rellena el clasificador con el silabeo).
+REGLA	aguda_vocal	es aguda y termina en vocal
+REGLA	aguda_n	es aguda y termina en «-n» no precedida de otra consonante
+REGLA	aguda_s	es aguda y termina en «-s» no precedida de otra consonante
+REGLA	llana	es llana y no termina en vocal, «-n» ni «-s»
+REGLA	llana_y	es llana y termina en «-y», que a efectos de la tilde cuenta como consonante
+REGLA	llana_grupo	es llana y termina en grupo de consonantes
+REGLA	esdrujula	es esdrújula, y las esdrújulas llevan siempre tilde
+REGLA	sobresdrujula	es sobresdrújula, y las sobresdrújulas llevan siempre tilde
+REGLA	hiato	la vocal cerrada tónica junto a una abierta forma hiato y lleva tilde
+REGLA	mente	los adverbios en «-mente» conservan la tilde del adjetivo
+REGLA	no_aguda	es aguda y no termina en vocal, «-n» ni «-s»
+REGLA	no_aguda_y	es aguda y termina en «-y», que a efectos de la tilde cuenta como consonante
+REGLA	no_aguda_grupo	es aguda y termina en grupo de consonantes
+REGLA	no_llana	es llana y termina en vocal, «-n» o «-s»
+REGLA	no_monosilabo	los monosílabos no llevan tilde, salvo la diacrítica
+REGLA	no_monosilabo_diptongo	es monosílaba, porque sus vocales forman diptongo o triptongo, y los monosílabos no llevan tilde, salvo la diacrítica
+REGLA	no_mente	los adverbios en «-mente» solo llevan tilde si la lleva el adjetivo
+# «haber»: Ortografía 2010, cap. I (la letra h) y DPD, s. v. «haber».
+VERBO_HABER_H		Aquí va «{a}», del verbo «haber» (como en «he venido» o «ha dicho»).
+# Ortografía 2010, cap. V (expresiones que se escriben en una o en varias palabras); DPD, s. v. «sino».
+SINO_SI_NO		Aquí va «{a}»: «sino» es una conjunción adversativa («no es rojo, sino azul») o un sustantivo («destino»); «si no» es la conjunción «si» seguida de «no» («si no vienes, llama»).
+# Unión y separación de palabras: Ortografía 2010, cap. V. Los pares conocidos llevan su propia
+# explicación en pares/JUNTO_SEPARADO.tsv.
+JUNTO_SEPARADO		Se escribe «{a}».
+JUNTO_SEPARADO	junto	«{a}» se escribe en una sola palabra.
+JUNTO_SEPARADO	separado	«{a}» se escribe separado.
+# Letras: Ortografía 2010, cap. I (uso de b y v, g y j, h, ll e y, c, z, s y x).
+B_V		Se escribe «{a}», con {letra}.
+G_J		Se escribe «{a}», con {letra}.
+H		«{a}» se escribe {con/sin} hache.
+LL_Y		Se escribe «{a}», con {letra}.
+C_Z_S_X		Se escribe «{a}», con {letra}.
+# Signos dobles: Ortografía 2010, cap. III (signos de interrogación y de exclamación).
+SIGNO_APERTURA		En castellano, las preguntas y exclamaciones se abren con «¿» y «¡».
+# ERRATA no tiene regla normativa propia: la forma correcta es la del diccionario (Hunspell es_ES,
+# RLA-ES) y la errata, una pulsación equivocada.
+ERRATA		Errata: «{de}» → «{a}».

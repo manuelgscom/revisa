@@ -1,0 +1,18 @@
+# Casos del clasificador: from, to, left, right, type y, si está, explanation exacta.
+# Solo cambian espacios. Negativos: signos y palabras.
+{"from": " ", "to": "", "left": "Hola", "right": ", Ana", "type": "ESPACIADO", "explanation": "Espaciado junto a los signos de puntuación."}
+{"from": "  ", "to": " ", "left": "Hola,", "right": "Ana", "type": "ESPACIADO"}
+{"from": "", "to": " ", "left": "Hola,", "right": "Ana", "type": "ESPACIADO"}
+{"from": " ", "to": "", "left": "Vienes", "right": "?", "type": "ESPACIADO"}
+{"from": " ", "to": "", "left": "Ya está", "right": ".", "type": "ESPACIADO"}
+{"from": " ", "to": "", "left": "Primero", "right": "; luego", "type": "ESPACIADO"}
+{"from": " ", "to": "", "left": "Lo siguiente", "right": ": nada", "type": "ESPACIADO"}
+{"from": " ", "to": "", "left": "Qué bien", "right": "!", "type": "ESPACIADO"}
+{"from": "   ", "to": " ", "left": "Nos vemos", "right": "mañana", "type": "ESPACIADO"}
+{"from": "", "to": " ", "left": "Hecho.", "right": "Mañana sigo", "type": "ESPACIADO"}
+{"from": "", "to": " ", "left": "Uno;", "right": "dos", "type": "ESPACIADO"}
+{"from": " ", "to": "", "left": "¿", "right": "Vienes?", "type": "ESPACIADO"}
+{"from": "\t", "to": " ", "left": "Hola,", "right": "Ana", "type": "ESPACIADO"}
+{"from": "", "to": "¿", "left": "", "right": "Qué tal?", "type": "SIGNO_APERTURA"}
+{"from": "aveces", "to": "a veces", "left": "", "right": " llego tarde", "type": "JUNTO_SEPARADO"}
+{"from": "", "to": ",", "left": "Hola", "right": " Ana", "type": "OTRO"}

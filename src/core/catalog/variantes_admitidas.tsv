@@ -1,0 +1,66 @@
+# Pares que revisa no corrige en ningún sentido: si el modelo cambia una forma por
+# la otra, la guarda descarta la edición. Son variantes que la norma admite, o formas que solo
+# admite en algunos usos y que distinguir exigiría un análisis que revisa no hace («solo/sólo» y
+# los demostrativos con tilde; «iros/idos», con «iros» también infinitivo). Ante la duda, no se
+# toca: perder una corrección cuesta menos que una falsa alarma.
+# La comparación no distingue mayúsculas. Además de cada par tal cual, el código acepta el mismo
+# plural en los dos lados («vídeos»/«videos», «chóferes»/«choferes») y, en los adjetivos en
+# «-íaco»/«-iaco», el femenino («cardíaca»/«cardiaca»).
+# Columnas: forma 1, forma 2.
+
+# Fuentes: DPD (2005), s. v. «enseguida» y «quizá»; RAE (2017), que admite «iros»
+# como imperativo de «irse»; Ortografía (2010), cap. II (la tilde diacrítica), y RAE (2023): «solo»
+# y los demostrativos pueden llevar tilde si hay ambigüedad.
+en seguida	enseguida
+quizá	quizás
+iros	idos
+solo	sólo
+este	éste
+esta	ésta
+estos	éstos
+estas	éstas
+ese	ése
+esa	ésa
+esos	ésos
+esas	ésas
+aquel	aquél
+aquella	aquélla
+aquellos	aquéllos
+aquellas	aquéllas
+
+# Palabras con doble acentuación admitida. Fuentes: DPD (2005), entrada de cada palabra; Ortografía
+# (2010), cap. II (voces con más de una acentuación).
+vídeo	video
+período	periodo
+olimpíada	olimpiada
+chófer	chofer
+cóctel	coctel
+fútbol	futbol
+béisbol	beisbol
+élite	elite
+dínamo	dinamo
+reúma	reuma
+alvéolo	alveolo
+bronquíolo	bronquiolo
+gladíolo	gladiolo
+omóplato	omoplato
+médula	medula
+ósmosis	osmosis
+hemiplejía	hemiplejia
+ícono	icono
+fríjol	frijol
+# Adjetivos y nombres en «-íaco»/«-iaco» (DPD, s. v. «-íaco»): las dos acentuaciones son válidas.
+austríaco	austriaco
+cardíaco	cardiaco
+policíaco	policiaco
+maníaco	maniaco
+zodíaco	zodiaco
+amoníaco	amoniaco
+afrodisíaco	afrodisiaco
+paradisíaco	paradisiaco
+demoníaco	demoniaco
+hipocondríaco	hipocondriaco
+elegíaco	elegiaco
+
+# Grafía simplificada admitida (DPD, s. v. «septiembre»).
+septiembre	setiembre

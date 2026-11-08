@@ -1,0 +1,22 @@
+# Casos del clasificador: from, to, left, right, type y, si está, explanation exacta.
+# Una palabra, Damerau-Levenshtein <= 2, «de» fuera del diccionario y «a» dentro. Se evalúa la última.
+# El test de este fichero se salta mientras el diccionario sea el stub (in_dictionary(«casa») falso).
+{"from": "cassa", "to": "casa", "left": "Estoy en ", "right": "", "type": "ERRATA", "explanation": "Errata: «cassa» → «casa»."}
+{"from": "qeu", "to": "que", "left": "Creo ", "right": " sí", "type": "ERRATA", "explanation": "Errata: «qeu» → «que»."}
+{"from": "tenemso", "to": "tenemos", "left": "", "right": " que hablar", "type": "ERRATA"}
+{"from": "mañna", "to": "mañana", "left": "Hasta ", "right": "", "type": "ERRATA"}
+{"from": "hablams", "to": "hablamos", "left": "Luego ", "right": "", "type": "ERRATA"}
+{"from": "graicas", "to": "gracias", "left": "", "right": "", "type": "ERRATA"}
+{"from": "trabjo", "to": "trabajo", "left": "Mi ", "right": "", "type": "ERRATA"}
+{"from": "ecribir", "to": "escribir", "left": "Voy a ", "right": "", "type": "ERRATA"}
+{"from": "dcumento", "to": "documento", "left": "El ", "right": "", "type": "ERRATA"}
+{"from": "probelma", "to": "problema", "left": "Un ", "right": "", "type": "ERRATA"}
+{"from": "siguente", "to": "siguiente", "left": "El ", "right": "", "type": "ERRATA"}
+{"from": "Mañna", "to": "Mañana", "left": "", "right": " hablamos", "type": "ERRATA", "explanation": "Errata: «Mañna» → «Mañana»."}
+{"from": "reunion", "to": "reunión", "left": "La ", "right": "", "type": "TILDE_FALTA"}
+{"from": "nesesito", "to": "necesito", "left": "", "right": " ayuda", "type": "C_Z_S_X"}
+{"from": "ola", "to": "hola", "left": "", "right": "", "type": "H"}
+{"from": "estubo", "to": "estuvo", "left": "", "right": "", "type": "B_V"}
+{"from": "casa", "to": "cosa", "left": "", "right": "", "type": "OTRO"}
+{"from": "xyzzy", "to": "casa", "left": "", "right": "", "type": "OTRO"}
+{"from": "cassa grande", "to": "casa grande", "left": "", "right": "", "type": "OTRO"}

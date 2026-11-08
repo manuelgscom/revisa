@@ -1,0 +1,24 @@
+# QUEISMO: solo se añade «de» justo delante de «que». {expresión}: la palabra anterior, con la
+# de antes si es un pronombre átono, una preposición o un artículo («me acuerdo», «a pesar»).
+{"from": "", "to": "de ", "left": "Me acuerdo ", "right": "que vino.", "type": "QUEISMO", "explanation": "Falta la preposición «de» delante de «que»: se dice «Me acuerdo de que», no «Me acuerdo que»."}
+{"from": "", "to": "de ", "left": "Estoy seguro ", "right": "que vendrá.", "type": "QUEISMO", "explanation": "Falta la preposición «de» delante de «que»: se dice «seguro de que», no «seguro que»."}
+{"from": "", "to": "de ", "left": "Me alegro ", "right": "que estés bien.", "type": "QUEISMO", "explanation": "Falta la preposición «de» delante de «que»: se dice «Me alegro de que», no «Me alegro que»."}
+{"from": "", "to": "de ", "left": "Salió a pesar ", "right": "que llovía.", "type": "QUEISMO", "explanation": "Falta la preposición «de» delante de «que»: se dice «a pesar de que», no «a pesar que»."}
+{"from": "", "to": "de ", "left": "Llámame en caso ", "right": "que no llegue.", "type": "QUEISMO", "explanation": "Falta la preposición «de» delante de «que»: se dice «en caso de que», no «en caso que»."}
+{"from": "", "to": "de ", "left": "Se dio cuenta ", "right": "que faltaba algo.", "type": "QUEISMO", "explanation": "Falta la preposición «de» delante de «que»: se dice «cuenta de que», no «cuenta que»."}
+{"from": "", "to": "de ", "left": "Tengo la impresión ", "right": "que no vendrá.", "type": "QUEISMO", "explanation": "Falta la preposición «de» delante de «que»: se dice «la impresión de que», no «la impresión que»."}
+{"from": "", "to": "de ", "left": "No cabe duda ", "right": "que es él.", "type": "QUEISMO", "explanation": "Falta la preposición «de» delante de «que»: se dice «duda de que», no «duda que»."}
+{"from": "", "to": "de ", "left": "Me olvidé ", "right": "que era hoy.", "type": "QUEISMO", "explanation": "Falta la preposición «de» delante de «que»: se dice «Me olvidé de que», no «Me olvidé que»."}
+{"from": "", "to": "de ", "left": "Estoy convencido ", "right": "que tiene razón.", "type": "QUEISMO", "explanation": "Falta la preposición «de» delante de «que»: se dice «convencido de que», no «convencido que»."}
+{"from": "", "to": "de ", "left": "Bueno, me acuerdo ", "right": "que vino.", "type": "QUEISMO", "explanation": "Falta la preposición «de» delante de «que»: se dice «me acuerdo de que», no «me acuerdo que»."}
+# Con una coma entre las dos palabras solo cuenta la última.
+{"from": "", "to": "de ", "left": "En caso, seguro ", "right": "que viene.", "type": "QUEISMO", "explanation": "Falta la preposición «de» delante de «que»: se dice «seguro de que», no «seguro que»."}
+# El espacio de la inserción puede venir a la izquierda.
+{"from": "", "to": " de", "left": "Me acuerdo", "right": " que vino.", "type": "QUEISMO", "explanation": "Falta la preposición «de» delante de «que»: se dice «Me acuerdo de que», no «Me acuerdo que»."}
+# Negativos.
+{"from": "", "to": "de ", "left": "Llámame antes ", "right": "que salgas.", "type": "OTRO"}
+{"from": "", "to": "de ", "left": "Llegó después ", "right": "que te fueras.", "type": "OTRO"}
+{"from": "", "to": "de ", "left": "Hablé ", "right": "quien tú sabes.", "type": "OTRO"}
+{"from": "", "to": "del ", "left": "Me acuerdo ", "right": "que vino.", "type": "OTRO"}
+{"from": "", "to": "de ", "left": "", "right": "que vengas me alegro.", "type": "OTRO"}
+{"from": "de ", "to": "", "left": "Creo ", "right": "que te va a gustar.", "type": "DEQUEISMO"}

@@ -1,0 +1,21 @@
+# HABER_IMPERSONAL: plural de «haber» -> singular (haber_plural.tsv).
+{"from": "habían", "to": "había", "left": "", "right": " muchas personas.", "type": "HABER_IMPERSONAL", "explanation": "«Haber» impersonal no tiene plural: «había»."}
+{"from": "Habían", "to": "Había", "left": "", "right": " muchas personas.", "type": "HABER_IMPERSONAL", "explanation": "«Haber» impersonal no tiene plural: «Había»."}
+{"from": "hubieron", "to": "hubo", "left": "Ayer ", "right": " problemas.", "type": "HABER_IMPERSONAL", "explanation": "«Haber» impersonal no tiene plural: «hubo»."}
+{"from": "habrán", "to": "habrá", "left": "", "right": " cambios.", "type": "HABER_IMPERSONAL", "explanation": "«Haber» impersonal no tiene plural: «habrá»."}
+{"from": "habrían", "to": "habría", "left": "Dijo que ", "right": " más plazas.", "type": "HABER_IMPERSONAL"}
+{"from": "hayan", "to": "haya", "left": "Espero que ", "right": " entradas.", "type": "HABER_IMPERSONAL"}
+{"from": "hubieran", "to": "hubiera", "left": "Si ", "right": " más médicos…", "type": "HABER_IMPERSONAL"}
+{"from": "hubiesen", "to": "hubiese", "left": "Aunque ", "right": " quejas, siguió.", "type": "HABER_IMPERSONAL"}
+# «han habido» llega como «han» -> «ha» con «habido» detrás; {a} añade «habido».
+{"from": "han", "to": "ha", "left": "", "right": " habido quejas.", "type": "HABER_IMPERSONAL", "explanation": "«Haber» impersonal no tiene plural: «ha habido»."}
+{"from": "habían", "to": "había", "left": "", "right": " habido problemas.", "type": "HABER_IMPERSONAL", "explanation": "«Haber» impersonal no tiene plural: «había habido»."}
+{"from": "hayan", "to": "haya", "left": "No creo que ", "right": " habido errores.", "type": "HABER_IMPERSONAL", "explanation": "«Haber» impersonal no tiene plural: «haya habido»."}
+# Negativos: «han» sin «habido» detrás; auxiliar de un tiempo compuesto (participio detrás).
+{"from": "han", "to": "ha", "left": "", "right": " llegado.", "type": "OTRO"}
+{"from": "han", "to": "ha", "left": "Los niños ", "right": " venido.", "type": "OTRO"}
+{"from": "hubieron", "to": "hubo", "left": "Cuando ", "right": " terminado, salieron.", "type": "OTRO"}
+{"from": "habían", "to": "había", "left": "Ellos ", "right": " llegado.", "type": "CONCORDANCIA"}
+{"from": "habían", "to": "había", "left": "Ya ", "right": " dicho que no.", "type": "CONCORDANCIA"}
+{"from": "habían", "to": "habría", "left": "", "right": " muchas personas.", "type": "OTRO"}
+{"from": "habías", "to": "había", "left": "", "right": " muchas personas.", "type": "CONCORDANCIA"}

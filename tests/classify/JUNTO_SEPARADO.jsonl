@@ -1,0 +1,22 @@
+# Casos del clasificador: from, to, left, right, type y, si está, explanation exacta.
+# Iguales sin espacios ni guiones, o par conocido de la lista. Negativos: pares de otros tipos.
+{"from": "aveces", "to": "a veces", "left": "", "right": " llego tarde", "type": "JUNTO_SEPARADO", "explanation": "La locución «a veces» («en ocasiones») se escribe en dos palabras; «aveces» solo es una forma del verbo «avezar»."}
+{"from": "a veces", "to": "aveces", "left": "", "right": " llego tarde", "type": "JUNTO_SEPARADO", "explanation": "La locución «a veces» («en ocasiones») se escribe en dos palabras; «aveces» solo es una forma del verbo «avezar»."}
+{"from": "derrepente", "to": "de repente", "left": "", "right": " se fue", "type": "JUNTO_SEPARADO", "explanation": "«de repente» se escribe en dos palabras."}
+{"from": "enserio", "to": "en serio", "left": "¿Lo dices ", "right": "?", "type": "JUNTO_SEPARADO"}
+{"from": "osea", "to": "o sea", "left": "", "right": ", que no vienes", "type": "JUNTO_SEPARADO"}
+{"from": "sinembargo", "to": "sin embargo", "left": "", "right": ", vino", "type": "JUNTO_SEPARADO"}
+{"from": "através", "to": "a través", "left": "", "right": " de la ventana", "type": "JUNTO_SEPARADO"}
+{"from": "tan bien", "to": "también", "left": "Yo ", "right": " voy", "type": "JUNTO_SEPARADO", "explanation": "«también» indica adición; «tan bien» es «tan» más «bien» («lo hace tan bien»)."}
+{"from": "también", "to": "tan bien", "left": "Lo hace ", "right": " que asusta", "type": "JUNTO_SEPARADO"}
+{"from": "sobretodo", "to": "sobre todo", "left": "", "right": " los lunes", "type": "JUNTO_SEPARADO", "explanation": "«sobre todo» («especialmente») se escribe separado; «sobretodo» es una prenda de abrigo."}
+{"from": "a parte", "to": "aparte", "left": "", "right": " de eso, nada", "type": "JUNTO_SEPARADO"}
+{"from": "anti vacunas", "to": "antivacunas", "left": "Es ", "right": "", "type": "JUNTO_SEPARADO", "explanation": "«antivacunas» se escribe en una sola palabra."}
+{"from": "ex-novio", "to": "exnovio", "left": "Mi ", "right": " vino", "type": "JUNTO_SEPARADO", "explanation": "«exnovio» se escribe en una sola palabra."}
+{"from": "porsiacaso", "to": "por si acaso", "left": "Llévalo ", "right": "", "type": "JUNTO_SEPARADO", "explanation": "«por si acaso» se escribe separado."}
+{"from": "Aveces", "to": "A veces", "left": "", "right": " llego tarde", "type": "JUNTO_SEPARADO"}
+{"from": "medio-día", "to": "medio día", "left": "Trabajo ", "right": "", "type": "JUNTO_SEPARADO", "explanation": "Se escribe «medio día»."}
+{"from": "por que", "to": "porque", "left": "Lo hice ", "right": " quería", "type": "JUNTO_SEPARADO", "note": "revisión del catálogo r1: el par salió de la lista"}
+{"from": "sino", "to": "si no", "left": "", "right": " vienes", "type": "SINO_SI_NO"}
+{"from": "aver", "to": "a ver", "left": "", "right": " qué pasa", "type": "HABER_A_VER"}
+{"from": "medio día", "to": "mediodía", "left": "Al ", "right": "", "type": "JUNTO_SEPARADO", "explanation": "«mediodía» se escribe en una sola palabra."}

@@ -1,0 +1,23 @@
+# Explicaciones de los tipos de gramática. Columnas: id, variante, plantilla.
+# La variante vacía es la de por defecto. Marcadores: {de}, {a}, {verbo}, {expresión}.
+# Fuentes: Diccionario panhispánico de dudas (2005) y Nueva gramática de la lengua española (2009).
+# Cada plantilla lleva encima la regla exacta con la que el clasificador da ese tipo.
+# id	variante	plantilla
+# DEQUEISMO: solo cuando la corrección quita un «de» justo delante de «que»; {verbo} es la palabra
+# anterior. DPD, s. v. «dequeísmo».
+DEQUEISMO		Dequeísmo: aquí sobra «de» delante de «que» («{verbo} que»).
+# QUEISMO: solo cuando la corrección añade un «de» justo delante de «que»; {expresión} es lo que
+# precede. DPD, s. v. «queísmo».
+QUEISMO		Falta la preposición «de» delante de «que»: se dice «{expresión} de que», no «{expresión} que».
+# LEISMO: la corrección cambia «le/les» por «lo/la/los/las». DPD, s. v. «leísmo» (se admiten el
+# leísmo de persona masculino singular y el de cortesía con «usted»).
+LEISMO		Pronombre de complemento directo: «{a}» en lugar de «{de}» (leísmo).
+LAISMO		Complemento indirecto: «{a}», no «{de}» (laísmo).
+LOISMO		Complemento indirecto: «{a}», no «{de}» (loísmo).
+HABER_IMPERSONAL		«Haber» impersonal no tiene plural: «{a}».
+IMPERATIVO		Imperativo: aquí corresponde «{a}», no el infinitivo.
+PRETERITO_S		El pretérito perfecto simple de «tú» no lleva «s» final: «{a}».
+CONJUGACION		Forma correcta del verbo: «{a}».
+CONCORDANCIA		Concordancia de género, número o persona: «{a}».
+# COMA_SOBRA: cualquier coma que la corrección quita. DPD, s. v. «coma²».
+COMA_SOBRA		Sobra esta coma.

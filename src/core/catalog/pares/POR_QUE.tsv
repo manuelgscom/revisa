@@ -1,0 +1,10 @@
+# Pares entre «porque», «por qué», «porqué» y «por que» (POR_QUE). Columnas: de, a, explicación.
+# Se buscan en los dos sentidos y sin distinguir mayúsculas; la explicación vale para los dos.
+# «que» -> «qué» detrás de «por» se reconstruye como «por que» -> «por qué».
+# Fuente: Ortografía 2010, cap. V (expresiones que se escriben en una o en varias palabras);
+# DPD, s. v. «porque», «porqué», «por qué» y «por que».
+porque	por qué	«por qué» es interrogativo o exclamativo, también en preguntas indirectas («no sé por qué»); «porque» es una conjunción, normalmente causal.
+porque	porqué	«porqué» es un sustantivo («el porqué de las cosas»); «porque» es una conjunción, normalmente causal.
+por qué	porqué	«por qué» es interrogativo o exclamativo («¿por qué vienes?»); «porqué» es un sustantivo («el porqué»).
+por qué	por que	«por qué» es interrogativo o exclamativo, también en preguntas indirectas («no sé por qué»); «por que» es la preposición «por» seguida de «que» («el motivo por que vino», «veló por que se cumpliera»).
+porqué	por que	«porqué» es un sustantivo («el porqué»); «por que» es la preposición «por» seguida de «que».

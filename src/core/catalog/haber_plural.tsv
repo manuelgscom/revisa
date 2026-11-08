@@ -1,0 +1,18 @@
+# HABER_IMPERSONAL (regla 26 del catálogo): formas plurales de «haber» y su singular.
+# «Haber» impersonal («había muchas personas», «hubo problemas») solo se usa en tercera persona
+# del singular, también en los tiempos compuestos («ha habido») y en las perífrasis.
+# Fuentes: DPD (2005), s. v. «haber»; Nueva gramática (2009), cap. 41 (oraciones impersonales).
+# Columnas: de (plural), a (singular), condición opcional.
+# Condición «habido»: la forma solo cuenta si la palabra siguiente es «habido» («han habido» →
+# «ha habido»); «han» delante de otra palabra es el auxiliar de un tiempo compuesto o «haber de».
+# Sin condición, si la palabra siguiente es un participio distinto de «habido» («habían llegado»),
+# la forma es el auxiliar de un tiempo compuesto y la edición no es de este tipo.
+# de	a	condición
+habían	había
+hubieron	hubo
+habrán	habrá
+habrían	habría
+hayan	haya
+hubieran	hubiera
+hubiesen	hubiese
+han	ha	habido

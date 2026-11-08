@@ -1,0 +1,20 @@
+# Casos del clasificador: from, to, left, right, type y, si está, explanation exacta.
+# Una sola sustitución b <-> v, sin distinguir tildes ni mayúsculas.
+{"from": "estubo", "to": "estuvo", "left": "Ayer ", "right": " aquí", "type": "B_V", "explanation": "Se escribe «estuvo», con «v»."}
+{"from": "tubo", "to": "tuvo", "left": "No ", "right": " tiempo", "type": "B_V", "explanation": "Se escribe «tuvo», con «v»."}
+{"from": "iva", "to": "iba", "left": "", "right": " a llamarte", "type": "B_V", "explanation": "Se escribe «iba», con «b»."}
+{"from": "havia", "to": "había", "left": "No ", "right": " nadie", "type": "B_V", "explanation": "Se escribe «había», con «b»."}
+{"from": "bamos", "to": "vamos", "left": "", "right": " a cenar", "type": "B_V"}
+{"from": "boy", "to": "voy", "left": "Ya ", "right": "", "type": "B_V"}
+{"from": "nuebo", "to": "nuevo", "left": "Es ", "right": "", "type": "B_V"}
+{"from": "Bamos", "to": "Vamos", "left": "", "right": " a cenar", "type": "B_V", "explanation": "Se escribe «Vamos», con «v»."}
+{"from": "escrivir", "to": "escribir", "left": "Voy a ", "right": "", "type": "B_V"}
+{"from": "rebisar", "to": "revisar", "left": "Hay que ", "right": " esto", "type": "B_V"}
+{"from": "lleba", "to": "lleva", "left": "Se lo ", "right": "", "type": "B_V"}
+{"from": "cavallo", "to": "caballo", "left": "Un ", "right": " blanco", "type": "B_V"}
+{"from": "vurro", "to": "burro", "left": "El ", "right": "", "type": "B_V"}
+{"from": "haver", "to": "haber", "left": "Puede ", "right": " problemas", "type": "B_V"}
+{"from": "vaya", "to": "valla", "left": "Salta la ", "right": "", "type": "LL_Y"}
+{"from": "hiba", "to": "iba", "left": "", "right": " a llamarte", "type": "H"}
+{"from": "vivir", "to": "bibir", "left": "", "right": "", "type": "OTRO"}
+{"from": "ver", "to": "haber", "left": "Va a ", "right": " problemas", "type": "HABER_A_VER"}

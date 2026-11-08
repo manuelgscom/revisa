@@ -1,0 +1,23 @@
+# Casos del clasificador: from, to, left, right, type y, si está, explanation exacta.
+# Interrogativos y exclamativos. Negativos: «por que», tildes que sobran, otros pares.
+{"from": "que", "to": "qué", "left": "No sé ", "right": " hacer", "type": "TILDE_INTERROGATIVA", "explanation": "«qué» lleva tilde porque aquí es interrogativo o exclamativo, también en preguntas indirectas."}
+{"from": "como", "to": "cómo", "left": "¿", "right": " estás?", "type": "TILDE_INTERROGATIVA", "explanation": "«cómo» lleva tilde porque aquí es interrogativo o exclamativo, también en preguntas indirectas."}
+{"from": "donde", "to": "dónde", "left": "¿", "right": " vives?", "type": "TILDE_INTERROGATIVA"}
+{"from": "cuando", "to": "cuándo", "left": "Dime ", "right": " vienes", "type": "TILDE_INTERROGATIVA"}
+{"from": "quien", "to": "quién", "left": "¿", "right": " llama?", "type": "TILDE_INTERROGATIVA"}
+{"from": "quienes", "to": "quiénes", "left": "¿", "right": " vienen?", "type": "TILDE_INTERROGATIVA"}
+{"from": "cual", "to": "cuál", "left": "¿", "right": " prefieres?", "type": "TILDE_INTERROGATIVA"}
+{"from": "cuales", "to": "cuáles", "left": "No sé ", "right": " elegir", "type": "TILDE_INTERROGATIVA"}
+{"from": "cuanto", "to": "cuánto", "left": "¿", "right": " cuesta?", "type": "TILDE_INTERROGATIVA"}
+{"from": "cuanta", "to": "cuánta", "left": "¡", "right": " gente!", "type": "TILDE_INTERROGATIVA"}
+{"from": "cuantos", "to": "cuántos", "left": "¿", "right": " sois?", "type": "TILDE_INTERROGATIVA"}
+{"from": "cuantas", "to": "cuántas", "left": "¿", "right": " veces?", "type": "TILDE_INTERROGATIVA"}
+{"from": "adonde", "to": "adónde", "left": "¿", "right": " vas?", "type": "TILDE_INTERROGATIVA"}
+{"from": "que", "to": "Qué", "left": "", "right": " tal estás?", "type": "TILDE_INTERROGATIVA", "explanation": "«Qué» lleva tilde porque aquí es interrogativo o exclamativo, y mayúscula al inicio de frase."}
+{"from": "como", "to": "Cómo", "left": "", "right": " te llamas?", "type": "TILDE_INTERROGATIVA", "explanation": "«Cómo» lleva tilde porque aquí es interrogativo o exclamativo, y mayúscula al inicio de frase."}
+{"from": "Que", "to": "Qué", "left": "¿", "right": " tal?", "type": "TILDE_INTERROGATIVA", "explanation": "«Qué» lleva tilde porque aquí es interrogativo o exclamativo, también en preguntas indirectas."}
+{"from": "que", "to": "qué", "left": "No sé por ", "right": " vino", "type": "POR_QUE"}
+{"from": "qué", "to": "que", "left": "Creo ", "right": " viene", "type": "TILDE_SOBRA"}
+{"from": "cómo", "to": "como", "left": "Es tal ", "right": " dices", "type": "TILDE_SOBRA"}
+{"from": "porque", "to": "por qué", "left": "¿", "right": " no vienes?", "type": "POR_QUE"}
+{"from": "mas", "to": "más", "left": "Dame ", "right": "", "type": "TILDE_DIACRITICA"}

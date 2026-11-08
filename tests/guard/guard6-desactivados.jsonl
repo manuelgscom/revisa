@@ -1,0 +1,9 @@
+# Casos de las guardas (src/core/guard). Dos formas:
+#   {segment, output, invalid}: guard::invalid_output.
+#   {marked, types, protected?, output?, disabled?, kept | rejection}: guard::apply. «marked» es el
+#   segmento con cada edición escrita [de|a]; types, el tipo dado a mano de cada una (sin clasificador);
+#   protected, los tramos protegidos como subcadenas; kept, los índices de las ediciones que quedan.
+{"marked": "el lunes 3 de [Marzo|marzo] y el [Martes|martes] 4 de abril", "types": ["MAYUSCULA", "MAYUSCULA"], "disabled": ["MAYUSCULA"], "kept": []}
+{"marked": "Mañana te llamo [despues|después] de la reunión del 3 de [Marzo|marzo].", "types": ["TILDE_FALTA", "MAYUSCULA"], "disabled": ["MAYUSCULA", "ESPACIADO"], "kept": [0]}
+{"marked": "Me [gusta|encanta] mucho la casa que habéis comprado este año.", "types": ["OTRO"], "disabled": ["OTRO"], "kept": []}
+{"marked": "Mañana te llamo [despues|después] de la reunión del 3 de [Marzo|marzo].", "types": ["TILDE_FALTA", "MAYUSCULA"], "kept": [0, 1]}

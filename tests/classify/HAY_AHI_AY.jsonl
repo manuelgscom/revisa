@@ -1,0 +1,18 @@
+# Casos del clasificador: from, to, left, right, type y, si está, explanation exacta.
+# hay, ahí, ay y ai, sin distinguir tildes. Negativos: «ahi» -> «ahí» (tilde), ll/y.
+{"from": "hay", "to": "ahí", "left": "Está ", "right": "", "type": "HAY_AHI_AY", "explanation": "«hay» es del verbo «haber» («hay pan»); «ahí» es un adverbio, generalmente de lugar («está ahí»)."}
+{"from": "ahí", "to": "hay", "left": "", "right": " mucha gente", "type": "HAY_AHI_AY", "explanation": "«hay» es del verbo «haber» («hay pan»); «ahí» es un adverbio, generalmente de lugar («está ahí»)."}
+{"from": "ay", "to": "hay", "left": "", "right": " mucha gente", "type": "HAY_AHI_AY", "explanation": "«hay» es del verbo «haber» («hay pan»); «ay» es una interjección («¡ay, qué daño!») o un sustantivo («un ay»)."}
+{"from": "hay", "to": "ay", "left": "¡", "right": ", qué dolor!", "type": "HAY_AHI_AY"}
+{"from": "ahí", "to": "ay", "left": "¡", "right": ", qué susto!", "type": "HAY_AHI_AY", "explanation": "«ahí» es un adverbio, generalmente de lugar («está ahí»); «ay» es una interjección («¡ay!») o un sustantivo («un ay»)."}
+{"from": "ay", "to": "ahí", "left": "Déjalo ", "right": "", "type": "HAY_AHI_AY"}
+{"from": "ai", "to": "hay", "left": "", "right": " que ir", "type": "HAY_AHI_AY", "explanation": "«hay», del verbo «haber», se escribe con hache y con «y»; «ai» no existe."}
+{"from": "ai", "to": "ahí", "left": "Está ", "right": "", "type": "HAY_AHI_AY", "explanation": "«ahí», el adverbio, se escribe con hache y con tilde; «ai» no existe."}
+{"from": "ai", "to": "ay", "left": "¡", "right": ", qué pena!", "type": "HAY_AHI_AY", "explanation": "«ay», interjección o sustantivo, se escribe con «y»; «ai» no existe."}
+{"from": "ahi", "to": "hay", "left": "", "right": " que ir", "type": "HAY_AHI_AY"}
+{"from": "Hay", "to": "Ahí", "left": "", "right": " está", "type": "HAY_AHI_AY"}
+{"from": "ahi", "to": "ay", "left": "¡", "right": ", qué pena!", "type": "HAY_AHI_AY"}
+{"from": "ahi", "to": "ahí", "left": "Está ", "right": "", "type": "TILDE_FALTA"}
+{"from": "haya", "to": "halla", "left": "Se ", "right": " en casa", "type": "LL_Y"}
+{"from": "allí", "to": "ahí", "left": "Está ", "right": "", "type": "OTRO"}
+{"from": "hay", "to": "había", "left": "", "right": " gente", "type": "OTRO"}

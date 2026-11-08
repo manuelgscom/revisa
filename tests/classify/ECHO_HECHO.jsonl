@@ -1,0 +1,19 @@
+# Casos del clasificador: from, to, left, right, type y, si está, explanation exacta.
+# Formas de «echar» y «hacer», «desechar» y «deshacer», en los dos sentidos.
+{"from": "echo", "to": "hecho", "left": "He ", "right": " el informe", "type": "ECHO_HECHO", "explanation": "«hecho» es de «hacer» («he hecho»); «echo», de «echar» («te echo de menos»)."}
+{"from": "hecho", "to": "echo", "left": "Te ", "right": " de menos", "type": "ECHO_HECHO", "explanation": "«hecho» es de «hacer» («he hecho»); «echo», de «echar» («te echo de menos»)."}
+{"from": "echa", "to": "hecha", "left": "La cama está ", "right": "", "type": "ECHO_HECHO", "explanation": "«hecha» es de «hacer» («está hecha»); «echa», de «echar» («echa sal»)."}
+{"from": "hecha", "to": "echa", "left": "", "right": " sal al guiso", "type": "ECHO_HECHO"}
+{"from": "echas", "to": "hechas", "left": "Las cosas ", "right": " a mano", "type": "ECHO_HECHO"}
+{"from": "hechas", "to": "echas", "left": "¿Me ", "right": " una mano?", "type": "ECHO_HECHO"}
+{"from": "echos", "to": "hechos", "left": "Los ", "right": " son claros", "type": "H", "note": "revisión del catálogo: el par salió de la lista"}
+{"from": "desecho", "to": "deshecho", "left": "Lo he ", "right": " todo", "type": "ECHO_HECHO", "explanation": "«deshecho» es de «deshacer» («lo he deshecho»); «desecho», de «desechar» o el residuo."}
+{"from": "deshecho", "to": "desecho", "left": "Es un ", "right": " industrial", "type": "ECHO_HECHO"}
+{"from": "desecha", "to": "deshecha", "left": "La cama está ", "right": "", "type": "ECHO_HECHO"}
+{"from": "deshecha", "to": "desecha", "left": "Siempre ", "right": " lo viejo", "type": "ECHO_HECHO"}
+{"from": "desechas", "to": "deshechas", "left": "Las maletas están ", "right": "", "type": "ECHO_HECHO"}
+{"from": "deshechos", "to": "desechos", "left": "Los ", "right": " tóxicos", "type": "ECHO_HECHO"}
+{"from": "Echo", "to": "Hecho", "left": "", "right": " está", "type": "ECHO_HECHO"}
+{"from": "hechar", "to": "echar", "left": "Hay que ", "right": " sal", "type": "H"}
+{"from": "echo", "to": "eco", "left": "Hace ", "right": "", "type": "OTRO"}
+{"from": "hecho", "to": "echó", "left": "Me ", "right": " de casa", "type": "H"}

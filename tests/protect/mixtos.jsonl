@@ -1,0 +1,8 @@
+# Varios tramos en un segmento, tramos pegados y segmentos protegidos enteros.
+{"segment": "https://ejemplo.es", "spans": ["https://ejemplo.es"], "fully_protected": true, "special": false}
+{"segment": "https://ejemplo.es, www.otro.com y @ana.", "spans": ["https://ejemplo.es", "www.otro.com", "@ana"], "fully_protected": false, "special": false}
+{"segment": "Ver `https://x.es` ya", "spans": ["`https://x.es`"], "fully_protected": false, "special": false}
+{"segment": "¡¿https://x.es/a?!", "spans": ["https://x.es/a"], "fully_protected": true, "special": false}
+{"segment": "Hola", "spans": [], "fully_protected": false, "special": false}
+{"segment": "...", "spans": [], "fully_protected": true, "special": false}
+{"segment": "Escribe a @ana en https://x.es", "spans": ["@ana", "https://x.es"], "fully_protected": false, "special": false}

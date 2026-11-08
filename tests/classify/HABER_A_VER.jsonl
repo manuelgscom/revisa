@@ -1,0 +1,18 @@
+# Casos del clasificador: from, to, left, right, type y, si está, explanation exacta.
+# haber, a ver, a haber y aver; «haber» -> «ver» tras «a».
+{"from": "haber", "to": "a ver", "left": "", "right": " si mañana podemos vernos", "type": "HABER_A_VER", "explanation": "«a ver» es la preposición «a» con el verbo «ver» («a ver si vienes»); «haber» es el verbo «haber» («va a haber fiesta») o el sustantivo («en su haber»)."}
+{"from": "Haber", "to": "A ver", "left": "", "right": " si vienes", "type": "HABER_A_VER"}
+{"from": "a ver", "to": "haber", "left": "Tiene que ", "right": " más gente", "type": "HABER_A_VER"}
+{"from": "aver", "to": "a ver", "left": "", "right": " qué pasa", "type": "HABER_A_VER", "explanation": "«a ver» se escribe en dos palabras; «aver» no existe."}
+{"from": "aver", "to": "haber", "left": "Puede ", "right": " problemas", "type": "HABER_A_VER", "explanation": "«haber», verbo o sustantivo, se escribe con hache y con «b»; «aver» no existe."}
+{"from": "haber", "to": "ver", "left": "Vamos a ", "right": " qué dice", "type": "HABER_A_VER", "explanation": "«a ver» lleva el verbo «ver» («vamos a ver»); «a haber», el verbo «haber» («va a haber tiempo»)."}
+{"from": "ver", "to": "haber", "left": "Va a ", "right": " problemas", "type": "HABER_A_VER"}
+{"from": "a haber", "to": "a ver", "left": "Vamos ", "right": " qué dice", "type": "HABER_A_VER"}
+{"from": "Aver", "to": "A ver", "left": "", "right": ", ¿qué pasa?", "type": "HABER_A_VER"}
+{"from": "haber", "to": "a ver", "left": "Hola Ana, ", "right": " si mañana podemos vernos.", "type": "HABER_A_VER"}
+{"from": "haber", "to": "a ver", "left": "¿", "right": " qué hora es?", "type": "HABER_A_VER"}
+{"from": "aver", "to": "A ver", "left": "", "right": " si llueve", "type": "HABER_A_VER"}
+{"from": "haber", "to": "ver", "left": "Puede ", "right": " problemas", "type": "OTRO"}
+{"from": "haver", "to": "haber", "left": "Puede ", "right": " problemas", "type": "B_V"}
+{"from": "aber", "to": "haber", "left": "Puede ", "right": " problemas", "type": "H"}
+{"from": "aver", "to": "ayer", "left": "Lo vi ", "right": "", "type": "ERRATA"}

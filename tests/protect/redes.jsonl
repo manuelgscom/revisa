@@ -1,0 +1,5 @@
+# Menciones y etiquetas.
+{"segment": "Gracias, @ana_garcia, por todo.", "spans": ["@ana_garcia"], "fully_protected": false, "special": false}
+{"segment": "Hoy #VeranoEnEspaña mola", "spans": ["#VeranoEnEspaña"], "fully_protected": false, "special": false}
+{"segment": "(@ana) y #tag2", "spans": ["@ana", "#tag2"], "fully_protected": false, "special": false}
+{"segment": "@ana #hola", "spans": ["@ana", "#hola"], "fully_protected": true, "special": false}

@@ -1,0 +1,6 @@
+# URL, correos y código: sus puntos no cortan.
+{"text": "Mira https://ejemplo.es/a.b?c=1. Luego me dices.", "segments": ["Mira https://ejemplo.es/a.b?c=1.", "Luego me dices."]}
+{"text": "Entra en www.ejemplo.com. Ahí está.", "segments": ["Entra en www.ejemplo.com.", "Ahí está."]}
+{"text": "Escribe a ana.garcia@ejemplo.es. Te contesta.", "segments": ["Escribe a ana.garcia@ejemplo.es.", "Te contesta."]}
+{"text": "Usa `a. B` aquí. Funciona.", "segments": ["Usa `a. B` aquí.", "Funciona."]}
+{"text": "Mira https://ejemplo.es/¿Qué? Bien.", "segments": ["Mira https://ejemplo.es/¿Qué?", "Bien."]}

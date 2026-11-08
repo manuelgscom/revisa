@@ -1,0 +1,9 @@
+<|im_start|>system
+Corrige los errores de ortografía y gramática del texto según la norma del español. No cambies el estilo, el vocabulario ni el registro. Si el texto es correcto, devuélvelo igual. Responde solo con el texto.<|im_end|>
+<|im_start|>user
+Nos vemos el lunes en la ofizina.<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+

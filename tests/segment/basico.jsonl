@@ -1,0 +1,18 @@
+# Cortes básicos: punto, interrogación, exclamación, puntos suspensivos y saltos de línea.
+{"text": "Hola. ¿Qué tal?", "segments": ["Hola.", "¿Qué tal?"]}
+{"text": "Hola.", "segments": ["Hola."]}
+{"text": "Hola", "segments": ["Hola"]}
+{"text": "Hola. Adiós. Hasta luego.", "segments": ["Hola.", "Adiós.", "Hasta luego."]}
+{"text": "¿Vienes? Sí, voy.", "segments": ["¿Vienes?", "Sí, voy."]}
+{"text": "¡Qué bien! ¿Vamos? Claro.", "segments": ["¡Qué bien!", "¿Vamos?", "Claro."]}
+{"text": "Llegó tarde. ¡Increíble!", "segments": ["Llegó tarde.", "¡Increíble!"]}
+{"text": "Esperé… Nadie vino.", "segments": ["Esperé…", "Nadie vino."]}
+{"text": "Esperé... Nadie vino.", "segments": ["Esperé...", "Nadie vino."]}
+{"text": "Esperé... y nadie vino.", "segments": ["Esperé... y nadie vino."]}
+{"text": "¿Qué? dijo ella.", "segments": ["¿Qué? dijo ella."]}
+{"text": "¿¡Qué!? No puede ser.", "segments": ["¿¡Qué!?", "No puede ser."]}
+{"text": "Hola.Adiós.", "segments": ["Hola.Adiós."]}
+{"text": "hola. adiós.", "segments": ["hola. adiós."]}
+{"text": "Fue en 1990. 2000 fue otro año.", "segments": ["Fue en 1990. 2000 fue otro año."]}
+{"text": "Ángel llegó. Óscar también.", "segments": ["Ángel llegó.", "Óscar también."]}
+{"text": "Vale. Ñoño no es.", "segments": ["Vale.", "Ñoño no es."]}

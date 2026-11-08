@@ -1,0 +1,14 @@
+# 1:1 split of N:N chunks and single edits when the counts differ.
+{"original": "Ya e echo", "corrected": "Ya he hecho", "edits": [{"start": 3, "end": 4, "from": "e", "to": "he"}, {"start": 5, "end": 9, "from": "echo", "to": "hecho"}]}
+{"original": "estas?", "corrected": "estás!", "edits": [{"start": 0, "end": 5, "from": "estas", "to": "estás"}, {"start": 5, "end": 6, "from": "?", "to": "!"}]}
+{"original": "a-b", "corrected": "c d", "edits": [{"start": 0, "end": 1, "from": "a", "to": "c"}, {"start": 1, "end": 2, "from": "-", "to": " "}, {"start": 2, "end": 3, "from": "b", "to": "d"}]}
+{"original": "uno, dos", "corrected": "UNO; DOS", "edits": [{"start": 0, "end": 3, "from": "uno", "to": "UNO"}, {"start": 3, "end": 4, "from": ",", "to": ";"}, {"start": 5, "end": 8, "from": "dos", "to": "DOS"}]}
+{"original": "que,tal", "corrected": "Qué, tal", "edits": [{"start": 0, "end": 3, "from": "que", "to": "Qué"}, {"start": 4, "end": 4, "from": "", "to": " "}]}
+{"original": "a ver si viene", "corrected": "haber si viene", "edits": [{"start": 0, "end": 5, "from": "a ver", "to": "haber"}]}
+{"original": "el por que de todo", "corrected": "el porqué de todo", "edits": [{"start": 3, "end": 10, "from": "por que", "to": "porqué"}]}
+{"original": "si no", "corrected": "sino", "edits": [{"start": 0, "end": 5, "from": "si no", "to": "sino"}]}
+{"original": "sino", "corrected": "si no", "edits": [{"start": 0, "end": 4, "from": "sino", "to": "si no"}]}
+{"original": "las 5,30", "corrected": "las 5:30", "edits": [{"start": 4, "end": 8, "from": "5,30", "to": "5:30"}]}
+{"original": "tengo 3 años", "corrected": "tengo 4 años", "edits": [{"start": 6, "end": 7, "from": "3", "to": "4"}]}
+{"original": "dijo hola", "corrected": "dijo «hola»", "edits": [{"start": 5, "end": 5, "from": "", "to": "«"}, {"start": 9, "end": 9, "from": "", "to": "»"}]}
+{"original": "Hola que tal", "corrected": "Hola, ¿qué tal?", "edits": [{"start": 4, "end": 4, "from": "", "to": ","}, {"start": 5, "end": 5, "from": "", "to": "¿"}, {"start": 5, "end": 8, "from": "que", "to": "qué"}, {"start": 12, "end": 12, "from": "", "to": "?"}]}

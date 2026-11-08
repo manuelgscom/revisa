@@ -1,0 +1,21 @@
+# PRETERITO_S: «de» = «a» + «s» y «a» termina en «-aste» o «-iste».
+{"from": "dijistes", "to": "dijiste", "left": "", "right": " que vendrías.", "type": "PRETERITO_S", "explanation": "El pretérito perfecto simple de «tú» no lleva «s» final: «dijiste»."}
+{"from": "Dijistes", "to": "Dijiste", "left": "", "right": " que vendrías.", "type": "PRETERITO_S", "explanation": "El pretérito perfecto simple de «tú» no lleva «s» final: «Dijiste»."}
+{"from": "vistes", "to": "viste", "left": "¿", "right": " la película?", "type": "PRETERITO_S", "explanation": "El pretérito perfecto simple de «tú» no lleva «s» final: «viste»."}
+{"from": "fuistes", "to": "fuiste", "left": "Tú ", "right": " el primero.", "type": "PRETERITO_S"}
+{"from": "hicistes", "to": "hiciste", "left": "Lo ", "right": " bien.", "type": "PRETERITO_S"}
+{"from": "estuvistes", "to": "estuviste", "left": "¿Dónde ", "right": "?", "type": "PRETERITO_S"}
+{"from": "comistes", "to": "comiste", "left": "¿Qué ", "right": "?", "type": "PRETERITO_S"}
+{"from": "llegastes", "to": "llegaste", "left": "", "right": " tarde.", "type": "PRETERITO_S"}
+{"from": "pudistes", "to": "pudiste", "left": "No ", "right": " venir.", "type": "PRETERITO_S"}
+{"from": "tuvistes", "to": "tuviste", "left": "", "right": " suerte.", "type": "PRETERITO_S"}
+{"from": "trajistes", "to": "trajiste", "left": "¿Lo ", "right": "?", "type": "PRETERITO_S"}
+{"from": "hablastes", "to": "hablaste", "left": "¿", "right": " con él?", "type": "PRETERITO_S"}
+# Negativos: al revés, otra terminación, palabras que acaban como el pretérito.
+{"from": "dijistes", "to": "dijeron", "left": "Ellos ", "right": " que sí.", "type": "OTRO"}
+{"from": "cantastes", "to": "cantaron", "left": "Ellos ", "right": ".", "type": "OTRO"}
+{"from": "existes", "to": "existe", "left": "No ", "right": ".", "type": "CONCORDANCIA"}
+{"from": "insistes", "to": "insiste", "left": "Ella ", "right": ".", "type": "CONCORDANCIA"}
+{"from": "tristes", "to": "triste", "left": "Está ", "right": ".", "type": "CONCORDANCIA"}
+{"from": "chistes", "to": "chiste", "left": "Un ", "right": ".", "type": "CONCORDANCIA"}
+{"from": "casas", "to": "casa", "left": "La ", "right": ".", "type": "CONCORDANCIA"}

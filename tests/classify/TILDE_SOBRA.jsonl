@@ -1,0 +1,25 @@
+# Casos del clasificador: from, to, left, right, type y, si está, explanation exacta.
+# La corrección quita una tilde; {regla} con el silabeo y caso propio de monosílabos. Negativos: pares de otras listas.
+{"from": "fué", "to": "fue", "left": "Ayer ", "right": " fiesta", "type": "TILDE_SOBRA", "explanation": "«fue» no lleva tilde: es monosílaba, porque sus vocales forman diptongo o triptongo, y los monosílabos no llevan tilde, salvo la diacrítica."}
+{"from": "fuí", "to": "fui", "left": "Ayer ", "right": " al cine", "type": "TILDE_SOBRA", "explanation": "«fui» no lleva tilde: es monosílaba, porque sus vocales forman diptongo o triptongo, y los monosílabos no llevan tilde, salvo la diacrítica."}
+{"from": "dió", "to": "dio", "left": "Me ", "right": " las gracias", "type": "TILDE_SOBRA"}
+{"from": "vió", "to": "vio", "left": "Nadie lo ", "right": "", "type": "TILDE_SOBRA"}
+{"from": "guión", "to": "guion", "left": "El ", "right": " de la película", "type": "TILDE_SOBRA", "explanation": "«guion» no lleva tilde: es monosílaba, porque sus vocales forman diptongo o triptongo, y los monosílabos no llevan tilde, salvo la diacrítica."}
+{"from": "truhán", "to": "truhan", "left": "Es un ", "right": "", "type": "TILDE_SOBRA"}
+{"from": "riáis", "to": "riais", "left": "Que os ", "right": " mucho", "type": "TILDE_SOBRA"}
+{"from": "tí", "to": "ti", "left": "Es para ", "right": "", "type": "TILDE_SOBRA", "explanation": "«ti» no lleva tilde: los monosílabos no llevan tilde, salvo la diacrítica."}
+{"from": "exámen", "to": "examen", "left": "El ", "right": " es mañana", "type": "TILDE_SOBRA", "explanation": "«examen» no lleva tilde: es llana y termina en vocal, «-n» o «-s»."}
+{"from": "camiónes", "to": "camiones", "left": "Los ", "right": " llegan", "type": "TILDE_SOBRA", "explanation": "«camiones» no lleva tilde: es llana y termina en vocal, «-n» o «-s»."}
+{"from": "relój", "to": "reloj", "left": "Mi ", "right": " atrasa", "type": "TILDE_SOBRA", "explanation": "«reloj» no lleva tilde: es aguda y no termina en vocal, «-n» ni «-s»."}
+{"from": "virréy", "to": "virrey", "left": "El ", "right": " llegó", "type": "TILDE_SOBRA", "explanation": "«virrey» no lleva tilde: es aguda y termina en «-y», que a efectos de la tilde cuenta como consonante."}
+{"from": "robóts", "to": "robots", "left": "Los ", "right": " trabajan", "type": "TILDE_SOBRA", "explanation": "«robots» no lleva tilde: es aguda y termina en grupo de consonantes."}
+{"from": "sólamente", "to": "solamente", "left": "Vino ", "right": " él", "type": "TILDE_SOBRA", "explanation": "«solamente» no lleva tilde: los adverbios en «-mente» solo llevan tilde si la lleva el adjetivo."}
+{"from": "qué", "to": "que", "left": "Creo ", "right": " viene", "type": "TILDE_SOBRA", "explanation": "«que» no lleva tilde: los monosílabos no llevan tilde, salvo la diacrítica."}
+{"from": "cómo", "to": "como", "left": "Es tal ", "right": " dices", "type": "TILDE_SOBRA", "explanation": "«como» no lleva tilde: es llana y termina en vocal, «-n» o «-s»."}
+{"from": "construído", "to": "construido", "left": "Está ", "right": "", "type": "TILDE_SOBRA", "explanation": "«construido» no lleva tilde: es llana y termina en vocal, «-n» o «-s»."}
+{"from": "estás", "to": "estas", "left": "Me gustan ", "right": " flores", "type": "TILDE_SOBRA"}
+{"from": "Fué", "to": "Fue", "left": "", "right": " genial", "type": "TILDE_SOBRA"}
+{"from": "qué", "to": "que", "left": "Esa es la razón por ", "right": " lo hice", "type": "POR_QUE"}
+{"from": "tú", "to": "tu", "left": "Me gusta ", "right": " casa", "type": "TILDE_DIACRITICA"}
+{"from": "sí", "to": "si", "left": "", "right": " vienes, avisa", "type": "TILDE_DIACRITICA"}
+{"from": "porqué", "to": "porque", "left": "Vine ", "right": " quise", "type": "POR_QUE"}

@@ -1,0 +1,20 @@
+# Casos del clasificador: from, to, left, right, type y, si está, explanation exacta.
+# Una sola sustitución g <-> j delante de e o i.
+{"from": "cojer", "to": "coger", "left": "Voy a ", "right": " el tren", "type": "G_J", "explanation": "Se escribe «coger», con «g»."}
+{"from": "elejir", "to": "elegir", "left": "Hay que ", "right": "", "type": "G_J", "explanation": "Se escribe «elegir», con «g»."}
+{"from": "gefe", "to": "jefe", "left": "Mi ", "right": " dice", "type": "G_J", "explanation": "Se escribe «jefe», con «j»."}
+{"from": "trage", "to": "traje", "left": "Un ", "right": " azul", "type": "G_J", "explanation": "Se escribe «traje», con «j»."}
+{"from": "digeron", "to": "dijeron", "left": "Me ", "right": " que no", "type": "G_J"}
+{"from": "extrangero", "to": "extranjero", "left": "Es ", "right": "", "type": "G_J"}
+{"from": "protejer", "to": "proteger", "left": "Hay que ", "right": "", "type": "G_J"}
+{"from": "Gefe", "to": "Jefe", "left": "", "right": ", ya está", "type": "G_J", "explanation": "Se escribe «Jefe», con «j»."}
+{"from": "teger", "to": "tejer", "left": "Sabe ", "right": "", "type": "G_J"}
+{"from": "muger", "to": "mujer", "left": "Una ", "right": "", "type": "G_J"}
+{"from": "garage", "to": "garaje", "left": "El ", "right": "", "type": "G_J"}
+{"from": "viage", "to": "viaje", "left": "Buen ", "right": "", "type": "G_J"}
+{"from": "lijero", "to": "ligero", "left": "Es ", "right": "", "type": "G_J"}
+{"from": "májico", "to": "mágico", "left": "Es ", "right": "", "type": "G_J"}
+{"from": "exijir", "to": "exigir", "left": "Hay que ", "right": "", "type": "G_J"}
+{"from": "jamón", "to": "gamón", "left": "", "right": "", "type": "OTRO"}
+{"from": "jugar", "to": "gugar", "left": "", "right": "", "type": "OTRO"}
+{"from": "haber", "to": "a ver", "left": "", "right": " si vienes", "type": "HABER_A_VER"}

@@ -1,0 +1,22 @@
+# IMPERATIVO: infinitivo -> imperativo de «vosotros» (r -> d; -ros -> -os).
+{"from": "callaros", "to": "callaos", "left": "¡", "right": "!", "type": "IMPERATIVO", "explanation": "Imperativo: aquí corresponde «callaos», no el infinitivo."}
+{"from": "Callaros", "to": "Callaos", "left": "", "right": " ya.", "type": "IMPERATIVO", "explanation": "Imperativo: aquí corresponde «Callaos», no el infinitivo."}
+{"from": "venir", "to": "venid", "left": "¡", "right": " aquí!", "type": "IMPERATIVO", "explanation": "Imperativo: aquí corresponde «venid», no el infinitivo."}
+{"from": "sentaros", "to": "sentaos", "left": "Niños, ", "right": ".", "type": "IMPERATIVO"}
+{"from": "decirle", "to": "decidle", "left": "", "right": " que pase.", "type": "IMPERATIVO", "explanation": "Imperativo: aquí corresponde «decidle», no el infinitivo."}
+{"from": "veniros", "to": "veníos", "left": "", "right": " conmigo.", "type": "IMPERATIVO"}
+{"from": "comer", "to": "comed", "left": "", "right": " despacio.", "type": "IMPERATIVO"}
+{"from": "traerlo", "to": "traedlo", "left": "", "right": " mañana.", "type": "IMPERATIVO"}
+{"from": "darme", "to": "dadme", "left": "", "right": " eso.", "type": "IMPERATIVO"}
+{"from": "decírselo", "to": "decídselo", "left": "", "right": " ya.", "type": "IMPERATIVO"}
+{"from": "poneros", "to": "poneos", "left": "", "right": " de pie.", "type": "IMPERATIVO"}
+{"from": "dormiros", "to": "dormíos", "left": "", "right": " pronto.", "type": "IMPERATIVO"}
+{"from": "reíros", "to": "reíos", "left": "", "right": " un poco.", "type": "IMPERATIVO"}
+{"from": "ir", "to": "id", "left": "", "right": " con cuidado.", "type": "IMPERATIVO"}
+{"from": "salir", "to": "salid", "left": "", "right": " de ahí.", "type": "IMPERATIVO"}
+# Negativos. «iros» -> «idos» no es de este tipo: «iros» está admitido (variante admitida).
+{"from": "iros", "to": "idos", "left": "", "right": " ya.", "type": "OTRO"}
+{"from": "callaros", "to": "callados", "left": "Estáis ", "right": ".", "type": "OTRO"}
+{"from": "callad", "to": "callar", "left": "Hay que ", "right": ".", "type": "OTRO"}
+{"from": "venir", "to": "ven", "left": "", "right": " aquí.", "type": "OTRO"}
+{"from": "por", "to": "pod", "left": "", "right": " favor.", "type": "OTRO"}

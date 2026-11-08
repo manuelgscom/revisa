@@ -1,0 +1,17 @@
+# Interrogativos y exclamativos tónicos con tilde (TILDE_INTERROGATIVA). Una forma por línea, en
+# minúscula y con su tilde. El clasificador compara la forma corregida exacta.
+# Fuente: Ortografía 2010, cap. II (tilde diacrítica en interrogativos y exclamativos);
+# DPD, s. v. «qué», «cómo», «cuándo», «dónde», «adónde», «quién», «cuál», «cuánto».
+qué
+cómo
+cuándo
+dónde
+adónde
+quién
+quiénes
+cuál
+cuáles
+cuánto
+cuánta
+cuántos
+cuántas

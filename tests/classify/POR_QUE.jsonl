@@ -1,0 +1,22 @@
+# Casos del clasificador: from, to, left, right, type y, si está, explanation exacta.
+# porque, por qué, porqué y por que en todos los sentidos; «que» tras «por».
+{"from": "porque", "to": "por qué", "left": "¿", "right": " no vienes?", "type": "POR_QUE", "explanation": "«por qué» es interrogativo o exclamativo, también en preguntas indirectas («no sé por qué»); «porque» es una conjunción, normalmente causal."}
+{"from": "por qué", "to": "porque", "left": "No vino ", "right": " estaba malo", "type": "POR_QUE", "explanation": "«por qué» es interrogativo o exclamativo, también en preguntas indirectas («no sé por qué»); «porque» es una conjunción, normalmente causal."}
+{"from": "porque", "to": "porqué", "left": "No entiendo el ", "right": " de todo esto", "type": "POR_QUE", "explanation": "«porqué» es un sustantivo («el porqué de las cosas»); «porque» es una conjunción, normalmente causal."}
+{"from": "porqué", "to": "porque", "left": "Vine ", "right": " quise", "type": "POR_QUE"}
+{"from": "que", "to": "qué", "left": "¿Por ", "right": " no vienes?", "type": "POR_QUE", "explanation": "«por qué» es interrogativo o exclamativo, también en preguntas indirectas («no sé por qué»); «por que» es la preposición «por» seguida de «que» («el motivo por que vino», «veló por que se cumpliera»)."}
+{"from": "qué", "to": "que", "left": "Esa es la razón por ", "right": " lo hice", "type": "POR_QUE"}
+{"from": "que", "to": "qué", "left": "No sé por ", "right": " vino", "type": "POR_QUE"}
+{"from": "por que", "to": "porque", "left": "Lo hice ", "right": " quería", "type": "JUNTO_SEPARADO", "note": "revisión del catálogo r1: el par salió de la lista"}
+{"from": "porque", "to": "por que", "left": "Es el motivo ", "right": " lo dejó", "type": "JUNTO_SEPARADO", "note": "revisión del catálogo r1: el par salió de la lista"}
+{"from": "por qué", "to": "porqué", "left": "Explícame el ", "right": "", "type": "POR_QUE", "explanation": "«por qué» es interrogativo o exclamativo («¿por qué vienes?»); «porqué» es un sustantivo («el porqué»)."}
+{"from": "porqué", "to": "por qué", "left": "¿", "right": " no?", "type": "POR_QUE"}
+{"from": "por que", "to": "por qué", "left": "¿", "right": " no?", "type": "POR_QUE"}
+{"from": "Porque", "to": "Por qué", "left": "¿", "right": " no?", "type": "POR_QUE"}
+{"from": "por que", "to": "porqué", "left": "No sé el ", "right": "", "type": "POR_QUE", "explanation": "«porqué» es un sustantivo («el porqué»); «por que» es la preposición «por» seguida de «que»."}
+{"from": "por  que", "to": "porque", "left": "Vine ", "right": " quise", "type": "JUNTO_SEPARADO", "note": "revisión del catálogo r1: el par salió de la lista"}
+{"from": "Que", "to": "Qué", "left": "¿Por ", "right": "?", "type": "POR_QUE"}
+{"from": "que", "to": "qué", "left": "No sé ", "right": " hacer", "type": "TILDE_INTERROGATIVA"}
+{"from": "por", "to": "para", "left": "Lo hago ", "right": " ti", "type": "OTRO"}
+{"from": "porque", "to": "pues", "left": "Vine ", "right": " quise", "type": "OTRO"}
+{"from": "como", "to": "cómo", "left": "¿Por ", "right": " lo sabes?", "type": "TILDE_INTERROGATIVA"}

@@ -1,0 +1,21 @@
+# Abreviaturas de catalog/abreviaturas.txt, iniciales y números: no cortan.
+{"text": "El Sr. García llegó. La Sra. López también.", "segments": ["El Sr. García llegó.", "La Sra. López también."]}
+{"text": "La Dra. Pérez y el Dr. Ruiz.", "segments": ["La Dra. Pérez y el Dr. Ruiz."]}
+{"text": "Frutas, p. ej. Manzanas.", "segments": ["Frutas, p. ej. Manzanas."]}
+{"text": "Frutas, p.ej. Manzanas.", "segments": ["Frutas, p.ej. Manzanas."]}
+{"text": "Viajó a EE. UU. Allí vivió.", "segments": ["Viajó a EE. UU. Allí vivió."]}
+{"text": "Ver pág. 5. Luego sigue.", "segments": ["Ver pág. 5.", "Luego sigue."]}
+{"text": "Vive en el n.º 5. Es azul.", "segments": ["Vive en el n.º 5.", "Es azul."]}
+{"text": "¿Viene Ud. Mañana?", "segments": ["¿Viene Ud.", "Mañana?"], "note": "«Ud.» lleva «fin» (revisión del catálogo r1): su punto también cierra frase"}
+{"text": "Leí a J. R. R. Tolkien. Me gustó.", "segments": ["Leí a J. R. R. Tolkien.", "Me gustó."]}
+{"text": "Firmado: M. Rajoy.", "segments": ["Firmado: M. Rajoy."]}
+{"text": "Pan, leche, etc. Luego volví.", "segments": ["Pan, leche, etc.", "Luego volví."]}
+{"text": "Pan, leche, etc. y volví.", "segments": ["Pan, leche, etc. y volví."]}
+{"text": "Etc. Fin.", "segments": ["Etc.", "Fin."]}
+{"text": "Nació en el 44 a. C. Murió joven.", "segments": ["Nació en el 44 a. C. Murió joven."]}
+{"text": "Mide 3.5 metros. Pesa 1.000 kilos.", "segments": ["Mide 3.5 metros.", "Pesa 1.000 kilos."]}
+{"text": "Cuesta 3,50 €. Es barato.", "segments": ["Cuesta 3,50 €.", "Es barato."]}
+{"text": "El tope. Sr. Pérez, pase.", "segments": ["El tope.", "Sr. Pérez, pase."]}
+{"text": "Lo dijo el ministro. Dr. en leyes.", "segments": ["Lo dijo el ministro.", "Dr. en leyes."]}
+{"text": "Lo pone el art. Primero.", "segments": ["Lo pone el art. Primero."]}
+{"text": "Era top. Luego bajó.", "segments": ["Era top.", "Luego bajó."]}

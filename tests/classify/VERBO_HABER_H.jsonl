@@ -1,0 +1,18 @@
+# Casos del clasificador: from, to, left, right, type y, si está, explanation exacta.
+# a/ha, e/he, as/has, an/han; el sentido contrario solo con las filas de la lista.
+{"from": "a", "to": "ha", "left": "Ya ", "right": " llegado", "type": "VERBO_HABER_H", "explanation": "Aquí va «ha», del verbo «haber» (como en «he venido» o «ha dicho»)."}
+{"from": "e", "to": "he", "left": "Ya ", "right": " hecho el informe", "type": "VERBO_HABER_H", "explanation": "Aquí va «he», del verbo «haber» (como en «he venido» o «ha dicho»)."}
+{"from": "as", "to": "has", "left": "¿Ya ", "right": " comido?", "type": "VERBO_HABER_H", "explanation": "Aquí va «has», del verbo «haber» (como en «he venido» o «ha dicho»)."}
+{"from": "an", "to": "han", "left": "Ya ", "right": " venido", "type": "VERBO_HABER_H", "explanation": "Aquí va «han», del verbo «haber» (como en «he venido» o «ha dicho»)."}
+{"from": "E", "to": "He", "left": "", "right": " echo el informe", "type": "VERBO_HABER_H", "explanation": "Aquí va «he», del verbo «haber» (como en «he venido» o «ha dicho»)."}
+{"from": "A", "to": "Ha", "left": "", "right": " llegado tarde", "type": "VERBO_HABER_H"}
+{"from": "a", "to": "ha", "left": "Nadie ", "right": " sido", "type": "VERBO_HABER_H"}
+{"from": "ha", "to": "a", "left": "Voy ", "right": " casa", "type": "VERBO_HABER_H", "explanation": "«a» es la preposición; «ha» es del verbo «haber» («ha venido», «ha de venir»)."}
+{"from": "Ha", "to": "A", "left": "", "right": " las cinco", "type": "VERBO_HABER_H"}
+{"from": "he", "to": "e", "left": "Padres ", "right": " hijos", "type": "VERBO_HABER_H", "explanation": "«e» es la conjunción («padres e hijos»); «he» es del verbo «haber» («he comido»)."}
+{"from": "has", "to": "as", "left": "Es un ", "right": " del volante", "type": "VERBO_HABER_H", "explanation": "«as» es un sustantivo («un as»); «has» es del verbo «haber» («has visto»)."}
+{"from": "a", "to": "ah", "left": "", "right": ", ya veo", "type": "H"}
+{"from": "han", "to": "an", "left": "Ya ", "right": " venido", "type": "H"}
+{"from": "e", "to": "y", "left": "Ana ", "right": " Luis", "type": "OTRO"}
+{"from": "e", "to": "é", "left": "Ya ", "right": " comido", "type": "TILDE_FALTA"}
+{"from": "o", "to": "ho", "left": "", "right": "", "type": "H"}

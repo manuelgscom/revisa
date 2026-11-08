@@ -1,0 +1,24 @@
+# CONJUGACION: «de» en conjugacion.tsv y «a» la forma que da la lista.
+{"from": "haiga", "to": "haya", "left": "Cuando ", "right": " tiempo.", "type": "CONJUGACION", "explanation": "Forma correcta del verbo: «haya»."}
+{"from": "Haiga", "to": "Haya", "left": "¡Ojalá! ", "right": " suerte.", "type": "CONJUGACION", "explanation": "Forma correcta del verbo: «Haya»."}
+{"from": "andé", "to": "anduve", "left": "Ayer ", "right": " mucho.", "type": "CONJUGACION", "explanation": "Forma correcta del verbo: «anduve»."}
+{"from": "conducí", "to": "conduje", "left": "Ayer ", "right": " yo.", "type": "ERRATA", "note": "revisión del catálogo r1: el par salió de la lista"}
+{"from": "satisfació", "to": "satisfizo", "left": "No le ", "right": ".", "type": "CONJUGACION"}
+{"from": "cabo", "to": "quepo", "left": "No ", "right": " en el coche.", "type": "OTRO", "note": "revisión del catálogo r1: el par salió de la lista"}
+{"from": "forzo", "to": "fuerzo", "left": "Si ", "right": " la puerta…", "type": "CONJUGACION"}
+{"from": "preveyó", "to": "previó", "left": "Nadie lo ", "right": ".", "type": "CONJUGACION"}
+{"from": "cabió", "to": "cupo", "left": "No ", "right": ".", "type": "CONJUGACION"}
+{"from": "apreto", "to": "aprieto", "left": "Si ", "right": " más, se rompe.", "type": "CONJUGACION"}
+{"from": "condujieron", "to": "condujeron", "left": "Lo ", "right": " al hospital.", "type": "CONJUGACION"}
+{"from": "dijieron", "to": "dijeron", "left": "Me ", "right": " que no.", "type": "CONJUGACION"}
+{"from": "rompido", "to": "roto", "left": "Se ha ", "right": ".", "type": "OTRO", "note": "revisión del catálogo r1: el par salió de la lista"}
+{"from": "preveer", "to": "prever", "left": "Es difícil ", "right": ".", "type": "CONJUGACION"}
+{"from": "caberá", "to": "cabrá", "left": "No ", "right": ".", "type": "CONJUGACION"}
+{"from": "andaron", "to": "anduvieron", "left": "", "right": " mucho.", "type": "CONJUGACION"}
+# Negativos: la forma correcta («ande», subjuntivo) o una corrección distinta de la de la lista.
+{"from": "ande", "to": "anduve", "left": "Ayer ", "right": ".", "type": "OTRO"}
+{"from": "haiga", "to": "hay", "left": "", "right": " tiempo.", "type": "OTRO"}
+{"from": "cabo", "to": "cabe", "left": "No ", "right": ".", "type": "OTRO"}
+{"from": "andé", "to": "anduvo", "left": "", "right": ".", "type": "OTRO"}
+{"from": "conduje", "to": "conducí", "left": "Ayer ", "right": ".", "type": "OTRO"}
+{"from": "haya", "to": "haiga", "left": "Cuando ", "right": " tiempo.", "type": "OTRO"}

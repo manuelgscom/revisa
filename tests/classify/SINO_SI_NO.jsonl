@@ -1,0 +1,17 @@
+# Casos del clasificador: from, to, left, right, type y, si está, explanation exacta.
+# sino y si no, en los dos sentidos.
+{"from": "sino", "to": "si no", "left": "", "right": " vienes, avísame", "type": "SINO_SI_NO", "explanation": "Aquí va «si no»: «sino» es una conjunción adversativa («no es rojo, sino azul») o un sustantivo («destino»); «si no» es la conjunción «si» seguida de «no» («si no vienes, llama»)."}
+{"from": "si no", "to": "sino", "left": "No es rojo, ", "right": " azul", "type": "SINO_SI_NO", "explanation": "Aquí va «sino»: «sino» es una conjunción adversativa («no es rojo, sino azul») o un sustantivo («destino»); «si no» es la conjunción «si» seguida de «no» («si no vienes, llama»)."}
+{"from": "Sino", "to": "Si no", "left": "", "right": " puedes, dímelo", "type": "SINO_SI_NO"}
+{"from": "si no", "to": "sino", "left": "No quiero café, ", "right": " té", "type": "SINO_SI_NO"}
+{"from": "sino", "to": "si no", "left": "Avísame ", "right": " llegas", "type": "SINO_SI_NO"}
+{"from": "si  no", "to": "sino", "left": "No lo hizo él, ", "right": " ella", "type": "SINO_SI_NO"}
+{"from": "sino", "to": "si no", "left": "¿Y ", "right": " llueve?", "type": "SINO_SI_NO"}
+{"from": "Si no", "to": "Sino", "left": "No solo eso. ", "right": " también lo otro", "type": "SINO_SI_NO"}
+{"from": "si no", "to": "sino", "left": "No vino a ayudar, ", "right": " a molestar", "type": "SINO_SI_NO"}
+{"from": "sino", "to": "si no", "left": "Llámame ", "right": " te importa", "type": "SINO_SI_NO"}
+{"from": "si", "to": "sí", "left": "Dijo que ", "right": "", "type": "TILDE_DIACRITICA"}
+{"from": "si no", "to": "sí no", "left": "", "right": "", "type": "OTRO"}
+{"from": "sino", "to": "si", "left": "", "right": "", "type": "OTRO"}
+{"from": "o sea", "to": "osea", "left": "", "right": "", "type": "JUNTO_SEPARADO"}
+{"from": "sino", "to": "sinó", "left": "", "right": "", "type": "TILDE_FALTA"}

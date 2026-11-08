@@ -1,0 +1,74 @@
+# Silabeo ortográfico (Ortografía 2010): word, syllables (en minúscula, con «-»), stress
+# (monosilaba, aguda, llana, esdrujula, sobresdrujula) y, si está, hiatus (la tilde marca hiato).
+# Diptongos, hiatos, triptongos y la y final.
+{"word": "aire", "syllables": "ai-re", "stress": "llana"}
+{"word": "causa", "syllables": "cau-sa", "stress": "llana"}
+{"word": "peine", "syllables": "pei-ne", "stress": "llana"}
+{"word": "deuda", "syllables": "deu-da", "stress": "llana"}
+{"word": "oigo", "syllables": "oi-go", "stress": "llana"}
+{"word": "bueno", "syllables": "bue-no", "stress": "llana"}
+{"word": "tiene", "syllables": "tie-ne", "stress": "llana"}
+{"word": "nieve", "syllables": "nie-ve", "stress": "llana"}
+{"word": "ciudad", "syllables": "ciu-dad", "stress": "aguda"}
+{"word": "cuidado", "syllables": "cui-da-do", "stress": "llana"}
+{"word": "cuídate", "syllables": "cuí-da-te", "stress": "esdrujula", "hiatus": false}
+{"word": "jesuita", "syllables": "je-sui-ta", "stress": "llana"}
+{"word": "destruí", "syllables": "des-truí", "stress": "aguda", "hiatus": false}
+{"word": "construir", "syllables": "cons-truir", "stress": "aguda"}
+{"word": "huía", "syllables": "huí-a", "stress": "llana", "hiatus": true}
+{"word": "día", "syllables": "dí-a", "stress": "llana", "hiatus": true}
+{"word": "días", "syllables": "dí-as", "stress": "llana", "hiatus": true}
+{"word": "río", "syllables": "rí-o", "stress": "llana", "hiatus": true}
+{"word": "tío", "syllables": "tí-o", "stress": "llana", "hiatus": true}
+{"word": "país", "syllables": "pa-ís", "stress": "aguda", "hiatus": true}
+{"word": "países", "syllables": "pa-í-ses", "stress": "llana", "hiatus": true}
+{"word": "maíz", "syllables": "ma-íz", "stress": "aguda", "hiatus": true}
+{"word": "raíz", "syllables": "ra-íz", "stress": "aguda", "hiatus": true}
+{"word": "baúl", "syllables": "ba-úl", "stress": "aguda", "hiatus": true}
+{"word": "Raúl", "syllables": "ra-úl", "stress": "aguda", "hiatus": true}
+{"word": "reír", "syllables": "re-ír", "stress": "aguda", "hiatus": true}
+{"word": "oír", "syllables": "o-ír", "stress": "aguda", "hiatus": true}
+{"word": "oído", "syllables": "o-í-do", "stress": "llana", "hiatus": true}
+{"word": "leído", "syllables": "le-í-do", "stress": "llana", "hiatus": true}
+{"word": "reúne", "syllables": "re-ú-ne", "stress": "llana", "hiatus": true}
+{"word": "acentúa", "syllables": "a-cen-tú-a", "stress": "llana", "hiatus": true}
+{"word": "continúo", "syllables": "con-ti-nú-o", "stress": "llana", "hiatus": true}
+{"word": "continuo", "syllables": "con-ti-nuo", "stress": "llana"}
+{"word": "frío", "syllables": "frí-o", "stress": "llana", "hiatus": true}
+{"word": "María", "syllables": "ma-rí-a", "stress": "llana", "hiatus": true}
+{"word": "poesía", "syllables": "po-e-sí-a", "stress": "llana", "hiatus": true}
+{"word": "teatro", "syllables": "te-a-tro", "stress": "llana"}
+{"word": "leer", "syllables": "le-er", "stress": "aguda"}
+{"word": "poeta", "syllables": "po-e-ta", "stress": "llana"}
+{"word": "caos", "syllables": "ca-os", "stress": "llana"}
+{"word": "aéreo", "syllables": "a-é-re-o", "stress": "esdrujula", "hiatus": false}
+{"word": "héroe", "syllables": "hé-ro-e", "stress": "esdrujula"}
+{"word": "océano", "syllables": "o-cé-a-no", "stress": "esdrujula"}
+{"word": "león", "syllables": "le-ón", "stress": "aguda"}
+{"word": "creer", "syllables": "cre-er", "stress": "aguda"}
+{"word": "chiita", "syllables": "chi-i-ta", "stress": "llana"}
+{"word": "zoológico", "syllables": "zo-o-ló-gi-co", "stress": "esdrujula"}
+{"word": "microondas", "syllables": "mi-cro-on-das", "stress": "llana"}
+{"word": "Uruguay", "syllables": "u-ru-guay", "stress": "aguda"}
+{"word": "Paraguay", "syllables": "pa-ra-guay", "stress": "aguda"}
+{"word": "averiguáis", "syllables": "a-ve-ri-guáis", "stress": "aguda"}
+{"word": "estudiáis", "syllables": "es-tu-diáis", "stress": "aguda"}
+{"word": "limpiéis", "syllables": "lim-piéis", "stress": "aguda"}
+{"word": "virrey", "syllables": "vi-rrey", "stress": "aguda"}
+{"word": "estoy", "syllables": "es-toy", "stress": "aguda"}
+{"word": "convoy", "syllables": "con-voy", "stress": "aguda"}
+{"word": "reyes", "syllables": "re-yes", "stress": "llana"}
+{"word": "leyes", "syllables": "le-yes", "stress": "llana"}
+{"word": "ayer", "syllables": "a-yer", "stress": "aguda"}
+{"word": "mayo", "syllables": "ma-yo", "stress": "llana"}
+{"word": "yegua", "syllables": "ye-gua", "stress": "llana"}
+{"word": "jersey", "syllables": "jer-sey", "stress": "aguda"}
+{"word": "yóquey", "syllables": "yó-quey", "stress": "llana"}
+{"word": "póney", "syllables": "pó-ney", "stress": "llana"}
+{"word": "huésped", "syllables": "hués-ped", "stress": "llana"}
+{"word": "náufrago", "syllables": "náu-fra-go", "stress": "esdrujula"}
+{"word": "ciénaga", "syllables": "cié-na-ga", "stress": "esdrujula"}
+{"word": "acuífero", "syllables": "a-cuí-fe-ro", "stress": "esdrujula", "hiatus": false}
+{"word": "veintiún", "syllables": "vein-tiún", "stress": "aguda", "hiatus": false}
+{"word": "interviú", "syllables": "in-ter-viú", "stress": "aguda", "hiatus": false}
+{"word": "hiato", "syllables": "hia-to", "stress": "llana"}

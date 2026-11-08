@@ -1,0 +1,10 @@
+# Saltos de línea: cortan siempre; las líneas en blanco no dan segmentos.
+{"text": "Hola\nadiós", "segments": ["Hola", "adiós"]}
+{"text": "Hola\r\nadiós", "segments": ["Hola", "adiós"]}
+{"text": "Hola\radiós", "segments": ["Hola", "adiós"]}
+{"text": "Uno dos tres", "segments": ["Uno", "dos", "tres"]}
+{"text": "  Hola mundo.  \n\n   \n\t Otra línea  ", "segments": ["Hola mundo.", "Otra línea"]}
+{"text": "Primera frase. Segunda\ncontinúa aquí.", "segments": ["Primera frase.", "Segunda", "continúa aquí."]}
+{"text": " 　Hola ", "segments": ["Hola"]}
+{"text": "1. Introducción\n2. Desarrollo", "segments": ["1. Introducción", "2. Desarrollo"]}
+{"text": "Capítulo 1. Introducción", "segments": ["Capítulo 1.", "Introducción"]}

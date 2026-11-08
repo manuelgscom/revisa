@@ -1,0 +1,21 @@
+# Casos del clasificador: from, to, left, right, type y, si está, explanation exacta.
+# Solo se añade o se quita una «h» (no la de «ch»). Negativos: formas de «haber», «hacer» y «hay».
+{"from": "ola", "to": "hola", "left": "", "right": ", Ana", "type": "H", "explanation": "«hola» se escribe con hache."}
+{"from": "hechar", "to": "echar", "left": "Hay que ", "right": " sal", "type": "H", "explanation": "«echar» se escribe sin hache."}
+{"from": "aber", "to": "haber", "left": "Puede ", "right": " problemas", "type": "H", "explanation": "«haber» se escribe con hache."}
+{"from": "abía", "to": "había", "left": "No ", "right": " nadie", "type": "H"}
+{"from": "ora", "to": "hora", "left": "¿Qué ", "right": " es?", "type": "H"}
+{"from": "ojear", "to": "hojear", "left": "Voy a ", "right": " el libro", "type": "H"}
+{"from": "hiba", "to": "iba", "left": "", "right": " a llamarte", "type": "H", "explanation": "«iba» se escribe sin hache."}
+{"from": "Ola", "to": "Hola", "left": "", "right": ", Ana", "type": "H", "explanation": "«Hola» se escribe con hache."}
+{"from": "aora", "to": "ahora", "left": "", "right": " voy", "type": "H"}
+{"from": "zanaoria", "to": "zanahoria", "left": "Una ", "right": "", "type": "H"}
+{"from": "almoada", "to": "almohada", "left": "La ", "right": "", "type": "H"}
+{"from": "exausto", "to": "exhausto", "left": "Estoy ", "right": "", "type": "H"}
+{"from": "hasta", "to": "asta", "left": "La ", "right": " de la bandera", "type": "H"}
+{"from": "uevo", "to": "huevo", "left": "Un ", "right": " frito", "type": "H"}
+{"from": "e", "to": "he", "left": "Ya ", "right": " comido", "type": "VERBO_HABER_H"}
+{"from": "echo", "to": "hecho", "left": "He ", "right": " el informe", "type": "ECHO_HECHO"}
+{"from": "ay", "to": "hay", "left": "", "right": " gente", "type": "HAY_AHI_AY"}
+{"from": "a", "to": "ha", "left": "Ya ", "right": " llegado", "type": "VERBO_HABER_H"}
+{"from": "coche", "to": "coce", "left": "", "right": "", "type": "OTRO"}

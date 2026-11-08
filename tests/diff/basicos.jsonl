@@ -1,0 +1,35 @@
+# Basic cases: empty, equal, all different, and the catalog and model contract examples.
+{"original": "", "corrected": "", "edits": []}
+{"original": "", "corrected": "Hola.", "edits": [{"start": 0, "end": 0, "from": "", "to": "Hola."}]}
+{"original": "Hola.", "corrected": "", "edits": [{"start": 0, "end": 5, "from": "Hola.", "to": ""}]}
+{"original": "igual", "corrected": "igual", "edits": []}
+{"original": "todo distinto", "corrected": "nada parecido", "edits": [{"start": 0, "end": 4, "from": "todo", "to": "nada"}, {"start": 5, "end": 13, "from": "distinto", "to": "parecido"}]}
+{"original": "abc", "corrected": "xyz!", "edits": [{"start": 0, "end": 3, "from": "abc", "to": "xyz"}, {"start": 3, "end": 3, "from": "", "to": "!"}]}
+# model contract examples
+{"original": "Ya e echo el informe y creo de que te gustará.", "corrected": "Ya he hecho el informe y creo que te gustará.", "edits": [{"start": 3, "end": 4, "from": "e", "to": "he"}, {"start": 5, "end": 9, "from": "echo", "to": "hecho"}, {"start": 28, "end": 31, "from": "de ", "to": ""}]}
+{"original": "que tal estas?", "corrected": "¿Qué tal estás?", "edits": [{"start": 0, "end": 0, "from": "", "to": "¿"}, {"start": 0, "end": 3, "from": "que", "to": "Qué"}, {"start": 8, "end": 13, "from": "estas", "to": "estás"}]}
+{"original": "Hola Ana, haber si mañana podemos vernos.", "corrected": "Hola Ana, a ver si mañana podemos vernos.", "edits": [{"start": 10, "end": 15, "from": "haber", "to": "a ver"}]}
+{"original": "Nos vemos a las 5, te parece?", "corrected": "Nos vemos a las 5, ¿te parece?", "edits": [{"start": 19, "end": 19, "from": "", "to": "¿"}]}
+{"original": "Le vi ayer en la reunión.", "corrected": "Le vi ayer en la reunión.", "edits": []}
+# error catalog examples
+{"original": "haber si mañana podemos vernos", "corrected": "a ver si mañana podemos vernos", "edits": [{"start": 0, "end": 5, "from": "haber", "to": "a ver"}]}
+{"original": "e echo el informe", "corrected": "he hecho el informe", "edits": [{"start": 0, "end": 1, "from": "e", "to": "he"}, {"start": 2, "end": 6, "from": "echo", "to": "hecho"}]}
+{"original": "creo de que te va a gustar", "corrected": "creo que te va a gustar", "edits": [{"start": 5, "end": 8, "from": "de ", "to": ""}]}
+{"original": "me acuerdo que vino", "corrected": "me acuerdo de que vino", "edits": [{"start": 11, "end": 11, "from": "", "to": "de "}]}
+{"original": "habían muchas personas", "corrected": "había muchas personas", "edits": [{"start": 0, "end": 6, "from": "habían", "to": "había"}]}
+{"original": "la dije que viniera", "corrected": "le dije que viniera", "edits": [{"start": 0, "end": 2, "from": "la", "to": "le"}]}
+{"original": "dijistes que vendrías", "corrected": "dijiste que vendrías", "edits": [{"start": 0, "end": 8, "from": "dijistes", "to": "dijiste"}]}
+{"original": "el lunes 3 de Marzo", "corrected": "el lunes 3 de marzo", "edits": [{"start": 14, "end": 19, "from": "Marzo", "to": "marzo"}]}
+{"original": "Los clientes, recibirán el pedido", "corrected": "Los clientes recibirán el pedido", "edits": [{"start": 12, "end": 13, "from": ",", "to": ""}]}
+{"original": "le vi ayer en la oficina", "corrected": "le vi ayer en la oficina", "edits": []}
+# Pure insertions and deletions of words carry one space: right if there is one, else left.
+{"original": "Hola Juan.", "corrected": "Hola.", "edits": [{"start": 4, "end": 9, "from": " Juan", "to": ""}]}
+{"original": "Hola.", "corrected": "Hola Juan.", "edits": [{"start": 4, "end": 4, "from": "", "to": " Juan"}]}
+{"original": "Juan vino", "corrected": "vino", "edits": [{"start": 0, "end": 5, "from": "Juan ", "to": ""}]}
+{"original": "vino Juan", "corrected": "vino", "edits": [{"start": 4, "end": 9, "from": " Juan", "to": ""}]}
+{"original": "Juan", "corrected": "Juan Pérez", "edits": [{"start": 4, "end": 4, "from": "", "to": " Pérez"}]}
+{"original": "dijo que que vendría", "corrected": "dijo que vendría", "edits": [{"start": 5, "end": 9, "from": "que ", "to": ""}]}
+{"original": "de de que", "corrected": "de que", "edits": [{"start": 0, "end": 3, "from": "de ", "to": ""}]}
+{"original": "muy bueno", "corrected": "muy muy bueno", "edits": [{"start": 0, "end": 0, "from": "", "to": "muy "}]}
+{"original": "todo distinto", "corrected": "nada parecido aquí", "edits": [{"start": 0, "end": 4, "from": "todo", "to": "nada"}, {"start": 5, "end": 13, "from": "distinto", "to": "parecido aquí"}]}
+{"original": "a b", "corrected": "b a", "edits": [{"start": 0, "end": 2, "from": "a ", "to": ""}, {"start": 3, "end": 3, "from": "", "to": " a"}]}

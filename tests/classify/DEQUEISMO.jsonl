@@ -1,0 +1,23 @@
+# DEQUEISMO: solo se quita «de» justo delante de «que». {verbo} = la palabra anterior.
+{"from": "de ", "to": "", "left": "Creo ", "right": "que te va a gustar.", "type": "DEQUEISMO", "explanation": "Dequeísmo: aquí sobra «de» delante de «que» («Creo que»)."}
+{"from": "de ", "to": "", "left": "Pienso ", "right": "que vendrá mañana.", "type": "DEQUEISMO", "explanation": "Dequeísmo: aquí sobra «de» delante de «que» («Pienso que»)."}
+{"from": "de ", "to": "", "left": "Me dijo ", "right": "que llegaba tarde.", "type": "DEQUEISMO", "explanation": "Dequeísmo: aquí sobra «de» delante de «que» («dijo que»)."}
+{"from": "de ", "to": "", "left": "Es posible ", "right": "que llueva.", "type": "DEQUEISMO"}
+{"from": "de ", "to": "", "left": "Opino ", "right": "que no hace falta.", "type": "DEQUEISMO"}
+{"from": "de ", "to": "", "left": "Resulta ", "right": "que no había nadie.", "type": "DEQUEISMO"}
+{"from": "de ", "to": "", "left": "Parece ", "right": "que va a salir bien.", "type": "DEQUEISMO"}
+{"from": "de ", "to": "", "left": "Supongo ", "right": "que lo sabes.", "type": "DEQUEISMO"}
+{"from": "de ", "to": "", "left": "Le aconsejé ", "right": "que descansara.", "type": "DEQUEISMO"}
+{"from": "De ", "to": "", "left": "Ya te dije ", "right": "que sí.", "type": "DEQUEISMO"}
+# El espacio del borrado puede venir a la izquierda.
+{"from": " de", "to": "", "left": "Creo", "right": " que te va a gustar.", "type": "DEQUEISMO", "explanation": "Dequeísmo: aquí sobra «de» delante de «que» («Creo que»)."}
+# Negativos: otra palabra detrás, otra cosa borrada, sin palabra delante.
+{"from": "de ", "to": "", "left": "Hablé ", "right": "quien tú sabes.", "type": "OTRO"}
+{"from": "de que ", "to": "", "left": "Creo ", "right": "va a llover.", "type": "OTRO"}
+{"from": "del ", "to": "", "left": "Creo ", "right": "que viene.", "type": "OTRO"}
+{"from": "de ", "to": "", "left": "", "right": "que vengas me alegro.", "type": "OTRO"}
+# «antes (de) que» y «después (de) que»: las dos formas son correctas (DPD).
+{"from": "de ", "to": "", "left": "Llámame antes ", "right": "que salgas.", "type": "OTRO"}
+{"from": "de ", "to": "", "left": "Llegó después ", "right": "que te fueras.", "type": "OTRO"}
+# Añadir «de» es QUEISMO, no esto.
+{"from": "", "to": "de ", "left": "Me acuerdo ", "right": "que vino.", "type": "QUEISMO"}

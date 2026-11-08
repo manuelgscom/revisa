@@ -1,0 +1,9 @@
+# Pares entre «haber», «a ver», «a haber» y «aver» (HABER_A_VER). Columnas: de, a, explicación.
+# Se buscan en los dos sentidos y sin distinguir mayúsculas; la explicación vale para los dos.
+# «haber» -> «ver» detrás de «a» se reconstruye como «a haber» -> «a ver» (y al revés).
+# Un par que no está aquí no es HABER_A_VER.
+# Fuente: DPD, s. v. «haber» y «ver»; Ortografía 2010, cap. V.
+haber	a ver	«a ver» es la preposición «a» con el verbo «ver» («a ver si vienes»); «haber» es el verbo «haber» («va a haber fiesta») o el sustantivo («en su haber»).
+a haber	a ver	«a ver» lleva el verbo «ver» («vamos a ver»); «a haber», el verbo «haber» («va a haber tiempo»).
+aver	a ver	«a ver» se escribe en dos palabras; «aver» no existe.
+aver	haber	«haber», verbo o sustantivo, se escribe con hache y con «b»; «aver» no existe.

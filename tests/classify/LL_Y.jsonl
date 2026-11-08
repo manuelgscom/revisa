@@ -1,0 +1,21 @@
+# Casos del clasificador: from, to, left, right, type y, si está, explanation exacta.
+# Una sola sustitución ll <-> y.
+{"from": "cayo", "to": "callo", "left": "Me ", "right": "", "type": "LL_Y", "explanation": "Se escribe «callo», con «ll»."}
+{"from": "yave", "to": "llave", "left": "La ", "right": "", "type": "LL_Y", "explanation": "Se escribe «llave», con «ll»."}
+{"from": "llendo", "to": "yendo", "left": "Estoy ", "right": "", "type": "LL_Y", "explanation": "Se escribe «yendo», con «y»."}
+{"from": "vaya", "to": "valla", "left": "Salta la ", "right": "", "type": "LL_Y"}
+{"from": "valla", "to": "vaya", "left": "¡", "right": " día!", "type": "LL_Y"}
+{"from": "halla", "to": "haya", "left": "Cuando ", "right": " tiempo", "type": "LL_Y"}
+{"from": "haya", "to": "halla", "left": "Se ", "right": " en casa", "type": "LL_Y"}
+{"from": "cullo", "to": "cuyo", "left": "El autor ", "right": " libro", "type": "LL_Y"}
+{"from": "aller", "to": "ayer", "left": "", "right": " fui", "type": "LL_Y"}
+{"from": "pollo", "to": "poyo", "left": "", "right": "", "type": "LL_Y"}
+{"from": "yeno", "to": "lleno", "left": "Está ", "right": "", "type": "LL_Y"}
+{"from": "Yave", "to": "Llave", "left": "", "right": " maestra", "type": "LL_Y", "explanation": "Se escribe «Llave», con «ll»."}
+{"from": "calló", "to": "cayó", "left": "Se ", "right": " al suelo", "type": "LL_Y", "explanation": "Se escribe «cayó», con «y»."}
+{"from": "orguyo", "to": "orgullo", "left": "Con ", "right": "", "type": "LL_Y"}
+{"from": "rayar", "to": "rallar", "left": "Hay que ", "right": " el queso", "type": "LL_Y"}
+{"from": "hoyo", "to": "ollo", "left": "", "right": "", "type": "OTRO"}
+{"from": "yo", "to": "lo", "left": "", "right": "", "type": "OTRO"}
+{"from": "ay", "to": "hay", "left": "", "right": " gente", "type": "HAY_AHI_AY"}
+{"from": "silla", "to": "sila", "left": "", "right": "", "type": "OTRO"}

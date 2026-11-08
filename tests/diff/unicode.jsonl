@@ -1,0 +1,13 @@
+# Offsets in UTF-16 units: emoji count two (surrogate pair), combining marks count one each.
+{"original": "Hola 😀 que tal", "corrected": "Hola 😀 qué tal", "edits": [{"start": 8, "end": 11, "from": "que", "to": "qué"}]}
+{"original": "😀😀 estas", "corrected": "😀😀 estás", "edits": [{"start": 5, "end": 10, "from": "estas", "to": "estás"}]}
+{"original": "😀 hola", "corrected": "hola", "edits": [{"start": 0, "end": 3, "from": "😀 ", "to": ""}]}
+{"original": "hola 👍", "corrected": "hola 👍🏽", "edits": [{"start": 7, "end": 7, "from": "", "to": "🏽"}]}
+{"original": "😀", "corrected": "😃", "edits": [{"start": 0, "end": 2, "from": "😀", "to": "😃"}]}
+{"original": "Hola😀adiós", "corrected": "Hola 😀 adiós", "edits": [{"start": 4, "end": 4, "from": "", "to": " "}, {"start": 6, "end": 6, "from": "", "to": " "}]}
+{"original": "café bueno", "corrected": "café bueno", "edits": [{"start": 0, "end": 5, "from": "café", "to": "café"}]}
+{"original": "él vino", "corrected": "él vino", "edits": [{"start": 0, "end": 3, "from": "él", "to": "él"}]}
+{"original": "más 😀 que", "corrected": "más 😀 qué", "edits": [{"start": 8, "end": 11, "from": "que", "to": "qué"}]}
+{"original": "ñandú", "corrected": "Ñandú", "edits": [{"start": 0, "end": 5, "from": "ñandú", "to": "Ñandú"}]}
+{"original": "pingüino", "corrected": "pinguino", "edits": [{"start": 0, "end": 8, "from": "pingüino", "to": "pinguino"}]}
+{"original": "l'amic", "corrected": "l’amic", "edits": [{"start": 0, "end": 6, "from": "l'amic", "to": "l’amic"}]}
